@@ -2,10 +2,13 @@ project:
   type: book
   output-dir: docs
 
+# Quarto options for books
+# https://quarto.org/docs/reference/projects/books.html
 book:
   title: "Experimental Books workshop catalogue"
   author: "Simon Worthington"
   date: "2023-02-20"
+  # this section determines which files will be added to the book as chapters
   chapters:
     - index.qmd
     - paintings.ipynb
@@ -13,13 +16,19 @@ book:
   repo-actions: [edit]
   downloads: [pdf]
 
+# Quarto allows commenting using either Hypothesis or Utterances
+# https://quarto.org/docs/reference/projects/books.html#comments
 comments:
   hypothesis: true
 
-#bibliography: references.bib
-
 format:
+  # options for HTML output
+  # https://quarto.org/docs/reference/formats/html.html
   html:
+    # Quarto allows a number of pre-packaged themes for the HTML version
+    # You can choose between them using the documentation at https://quarto.org/docs/output-formats/html-themes.html
     theme: minty
+  # options for PDF output 
+  # https://quarto.org/docs/reference/formats/pdf.html
   pdf:
     documentclass: book
