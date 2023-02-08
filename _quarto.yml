@@ -1,0 +1,25 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Experimental Books workshop catalogue"
+  author: "Simon Worthington"
+  date: "2023-02-20"
+  chapters:
+    - index.qmd
+    - paintings.ipynb
+  repo-url: https://github.com/SimonXIX/Experimental_Books_workshop_repo
+  repo-actions: [edit]
+  downloads: [pdf]
+
+comments:
+  hypothesis: true
+
+#bibliography: references.bib
+
+format:
+  html:
+    theme: minty
+  pdf:
+    documentclass: book

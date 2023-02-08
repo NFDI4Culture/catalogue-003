@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Experimental Books workshop catalogue",
+    "section": "",
+    "text": "1 Home page"
+  },
+  {
+    "objectID": "paintings.html#image-from-linked-open-data-api",
+    "href": "paintings.html#image-from-linked-open-data-api",
+    "title": "2  Image from linked open data API",
+    "section": "2.1 Image from linked open data API",
+    "text": "2.1 Image from linked open data API\n\n2.1.1 Image - Siege III: The Fortress of Raab occupied by the Turks, 1594. Painting, https://wikibase.wbworkshop.tibwiki.io/wiki/Item:Q505\nThe below Python code experiments with retrieving data from Wikibase using the API. This takes approx. 18 seconds to run due to the size of the images.\n\nfrom PIL import Image\nimport requests\n\n# Global variables\nendpoint_url = 'https://wikibase.wbworkshop.tibwiki.io'\nresource_url = '/w/api.php'\nentity_id = 'Q505'\n\ndef get_entity (entity_id):\n    resourceUrl = '/w/api.php?action=wbgetentities&format=json&ids='+entity_id\n    uri = endpoint_url + resourceUrl\n    r = requests.get(uri)\n    data = r.json()\n    return data\n\nmedia_data = get_entity(entity_id)\nclaims = media_data['entities'][entity_id]['claims']\nfor property, values in claims.items():\n    if property == 'P22':\n        for value in values:\n            image_url = value['mainsnak']['datavalue']['value']\n            im = Image.open(requests.get(image_url, stream=True).raw)\n    elif property == 'P23':\n        for value in values:\n            entity_id = value['mainsnak']['datavalue']['value']['id']\n            object_data = get_entity(entity_id)\nprint('English title: ', object_data['entities'][entity_id]['labels']['en']['value'])\ndisplay(im)\n\nEnglish title:  Siege III: The Fortress of Raab occupied by the Turks, 1594"
+  }
+]
