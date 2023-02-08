@@ -6,13 +6,13 @@ project:
 # https://quarto.org/docs/reference/projects/books.html
 book:
   title: "Experimental Books workshop catalogue"
-  author: "Simon Worthington"
+  author: "Experimental Books conference participants"
   date: "2023-02-20"
   # this section determines which files will be added to the book as chapters
   chapters:
     - index.qmd
     - paintings.ipynb
-  repo-url: https://github.com/SimonXIX/Experimental_Books_workshop_repo
+  repo-url: https://github.com/SimonXIX/Experimental_Books_workshop
   repo-actions: [edit]
   downloads: [pdf]
 
