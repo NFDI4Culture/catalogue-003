@@ -7,10 +7,10 @@
     "text": "1 Home page"
   },
   {
-    "objectID": "paintings.html#image-from-linked-open-data-api",
-    "href": "paintings.html#image-from-linked-open-data-api",
-    "title": "2  Image from linked open data API",
-    "section": "2.1 Image from linked open data API",
-    "text": "2.1 Image from linked open data API\n\n2.1.1 Image - Siege III: The Fortress of Raab occupied by the Turks, 1594. Painting, https://wikibase.wbworkshop.tibwiki.io/wiki/Item:Q505\nThe below Python code experiments with retrieving data from Wikibase using the API. This takes approx. 18 seconds to run due to the size of the images.\n\nfrom PIL import Image\nimport requests\n\n# Global variables\nendpoint_url = 'https://wikibase.wbworkshop.tibwiki.io'\nresource_url = '/w/api.php'\nentity_id = 'Q505'\n\ndef get_entity (entity_id):\n    resourceUrl = '/w/api.php?action=wbgetentities&format=json&ids='+entity_id\n    uri = endpoint_url + resourceUrl\n    r = requests.get(uri)\n    data = r.json()\n    return data\n\nmedia_data = get_entity(entity_id)\nclaims = media_data['entities'][entity_id]['claims']\nfor property, values in claims.items():\n    if property == 'P22':\n        for value in values:\n            image_url = value['mainsnak']['datavalue']['value']\n            im = Image.open(requests.get(image_url, stream=True).raw)\n    elif property == 'P23':\n        for value in values:\n            entity_id = value['mainsnak']['datavalue']['value']['id']\n            object_data = get_entity(entity_id)\nprint('English title: ', object_data['entities'][entity_id]['labels']['en']['value'])\ndisplay(im)\n\nEnglish title:  Siege III: The Fortress of Raab occupied by the Turks, 1594"
+    "objectID": "paintings.html#paintings-catalogue",
+    "href": "paintings.html#paintings-catalogue",
+    "title": "2  Paintings catalogue Jupyter Notebook",
+    "section": "2.1 Paintings catalogue",
+    "text": "2.1 Paintings catalogue\nThe below Python code uses SPARQLWrapper to retrieve data from Wikidata based on a SPARQL query.\nWikidata link: http://www.wikidata.org/entity/Q10901792\nOriginal language title: Midas und Bacchus\nEnglish title: Midas and Bacchus\nYear: 1624\nCreator: Nicolas Poussin\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q11772156\nOriginal language title: Die kleine Obsthändlerin\nEnglish title: The Little Fruit Seller\nYear: 1670\nCreator: Bartolomé Esteban Murillo\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q11821341\nOriginal language title: Die Anbetung der Hirten\nEnglish title: Adoration of the Shepherds\nYear: 1646\nCreator: Rembrandt\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q12899795\nOriginal language title: Der König trinkt\nEnglish title: Twelfth Night\nYear: 1654\nCreator: Gabriel Metsu\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q15691130\nOriginal language title: Der bethlehemitische Kindermord\nEnglish title: Massacre of the Innocents\nYear: 1638\nCreator: Peter Paul Rubens\nCopyright: public domain"
   }
 ]
