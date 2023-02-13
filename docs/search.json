@@ -14,9 +14,16 @@
     "text": "The below Python code uses SPARQLWrapper to retrieve data from Wikidata based on a SPARQL query.\nWikidata link: http://www.wikidata.org/entity/Q19930126\nTitle: Battle Painting\nYear: 1650\nCreator: Johann Heinrich Schönfeld\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q19930364\nTitle: Rocky Landscape with Antique Ruins\nYear: 1657\nCreator: Nicolaes Pieterszoon Berchem\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q19960862\nTitle: Supper at the House of Burgomaster Rockox\nYear: 1632\nCreator: Frans Francken the Younger\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q19960948\nTitle: The Gallery of Archduke Leopold in Brussels (II)\nYear: 1655\nCreator: David Teniers the Younger\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q19968958\nTitle: Singers\nYear: 1610\nCreator: Jean LeClerc\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q19973874\nTitle: Sacrifice of Abraham\nYear: 1636\nCreator: Rembrandt\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q19973874\nTitle: Sacrifice of Abraham\nYear: 1636\nCreator: http://www.wikidata.org/.well-known/genid/90c4ff7a51d7f010f33e825766fada65\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q20017804\nTitle: Italian Evening Landscape\nYear: 1670\nCreator: Nicolaes Pieterszoon Berchem\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q20064545\nTitle: A mother with two children and a maid with a pail by a fireplace\nYear: 1675\nCreator: Pieter de Hooch\nCopyright: public domain"
   },
   {
+    "objectID": "3d_model.html#d-model",
+    "href": "3d_model.html#d-model",
+    "title": "3  3D model Jupyter Notebook",
+    "section": "3.1 3D model",
+    "text": "3.1 3D model\nThis page shows a 3D model .stl file using the numpy-stl Python library found at https://pypi.org/project/numpy-stl/. This converts a .stl file to matplotlib and then displays as HTML.\n<Figure size 640x480 with 0 Axes>"
+  },
+  {
     "objectID": "video.html",
     "href": "video.html",
-    "title": "3  Embedded video Jupyter Notebook",
+    "title": "4  Embedded video Jupyter Notebook",
     "section": "",
     "text": "The below Python code experiments with retrieving video data via iframe embedding."
   }
