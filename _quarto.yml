@@ -12,8 +12,6 @@ book:
   chapters:
     - index.qmd
     - paintings.ipynb
-    #- bibliographic.ipynb
-    - 3d_model.ipynb
     - video.ipynb
   repo-url: https://github.com/SimonXIX/Experimental_Books_workshop
   repo-actions: [edit]
