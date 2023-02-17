@@ -8,6 +8,10 @@ Computational publishing was developed in the life sciences and STEM subjects to
 
 During the workshop, we will auto-compile catalogue publications for exhibitions or publication listings from multiple open data sources; and show how such compilations can be published multi-format: web, PDF, ebook, etc. A series of exercises, using Jupyter Notebooks for code and the Quarto platform to wrap up the notebooks for multi-format outputting, will give participants a practical introduction to some of the tools, possibilities and concepts of computational publishing.
 
+## Workshop schedule
+
+Full workshop schedule available at https://mrchristian.github.io/Workshop-Publishing-from-Collections/
+
 ## Quarto and Jupyter Notebook
 
 The main publishing workflow uses Quarto to render the output of Jupyter Notebook files. Run the .ipynb files in JupyterLab or Visual Studio Code or any other Jupyter environment and then run:
