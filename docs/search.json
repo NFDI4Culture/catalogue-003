@@ -4,20 +4,27 @@
     "href": "index.html",
     "title": "Experimental Books workshop catalogue",
     "section": "",
-    "text": "1 Home page"
+    "text": "Home page"
   },
   {
     "objectID": "paintings.html",
     "href": "paintings.html",
-    "title": "2  Paintings catalogue Jupyter Notebook",
+    "title": "Activity B: Paintings catalogue in Jupyter Notebook",
     "section": "",
-    "text": "The below Python code uses SPARQLWrapper to retrieve data from Wikidata based on a SPARQL query.\nWikidata link: http://www.wikidata.org/entity/Q10901792\nTitle: Midas and Bacchus\nYear: 1624\nCreator: Nicolas Poussin\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q11772156\nTitle: The Little Fruit Seller\nYear: 1670\nCreator: Bartolomé Esteban Murillo\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q11821341\nTitle: Adoration of the Shepherds\nYear: 1646\nCreator: Rembrandt\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q12899795\nTitle: Twelfth Night\nYear: 1654\nCreator: Gabriel Metsu\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q15691130\nTitle: Massacre of the Innocents\nYear: 1638\nCreator: Peter Paul Rubens\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q16070498\nTitle: The Prodigal Son\nYear: 1622\nCreator: Gerard van Honthorst\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q16364714\nTitle: The Lion Hunt\nYear: 1621\nCreator: Peter Paul Rubens\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q16674796\nTitle: Francis of Assisi\nYear: 1660\nCreator: Francisco de Zurbarán\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q16712383\nTitle: Lady viola da gamba player\nYear: 1637\nCreator: Anthony van Dyck\nCopyright: public domain"
+    "text": "Objective: Make a selection of nine paintings for the exhibition catalogue to be selected from Wikidata and rendered multi-format in Quarto.\nThe below Python code uses SPARQLWrapper to retrieve data from Wikidata based on a SPARQL query.\nWikidata link: http://www.wikidata.org/entity/Q203259\nTitle: The Fall of the Damned\nYear: 1621\nCreator: Peter Paul Rubens\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q568100\nTitle: The Descent from the Cross\nYear: 1633\nCreator: Rembrandt\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q571416\nTitle: Honeysuckle Bower\nYear: 1609\nCreator: Peter Paul Rubens\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q644936\nTitle: The Rape of the Daughters of Leucippus\nYear: 1618\nCreator: Peter Paul Rubens\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q644936\nTitle: The Rape of the Daughters of Leucippus\nYear: 1618\nCreator: Jan Wildens\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q835699\nTitle: The Great Last Judgement\nYear: 1617\nCreator: Peter Paul Rubens\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q835699\nTitle: The Great Last Judgement\nYear: 1617\nCreator: Peter Paul Rubens\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q880502\nTitle: Willem van Heythuysen posing with a sword\nYear: 1625\nCreator: Frans Hals\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q1548676\nTitle: Large Fish Market\nYear: 1603\nCreator: Jan Brueghel the Elder\nCopyright: public domain"
   },
   {
-    "objectID": "video.html",
-    "href": "video.html",
-    "title": "3  Embedded video Jupyter Notebook",
-    "section": "",
-    "text": "The below Python code experiments with retrieving video data via iframe embedding."
+    "objectID": "video.html#video-embedding",
+    "href": "video.html#video-embedding",
+    "title": "Activity C: Embedded video in Jupyter Notebook",
+    "section": "Video embedding",
+    "text": "Video embedding\nThe below Python code experiments with retrieving video data via iframe embedding."
+  },
+  {
+    "objectID": "video.html#d-model-embedding",
+    "href": "video.html#d-model-embedding",
+    "title": "Activity C: Embedded video in Jupyter Notebook",
+    "section": "3D model embedding",
+    "text": "3D model embedding\nThe below Python code experiments with retrieving 3D data via iframe embedding."
   }
 ]

@@ -26,6 +26,7 @@ format:
   # options for HTML output
   # https://quarto.org/docs/reference/formats/html.html
   html:
+    number-sections: false
     # Quarto allows a number of pre-packaged themes for the HTML version
     # You can choose between them using the documentation at https://quarto.org/docs/output-formats/html-themes.html
     theme: minty
