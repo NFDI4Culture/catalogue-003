@@ -1,5 +1,3 @@
-# Home page
-
 ## Workshop Programme: Publishing from Collections: Introducing Computational Publishing for Culture
 
 [Programme instructions](https://mrchristian.github.io/Workshop-Publishing-from-Collections/)
@@ -12,7 +10,7 @@ Contribution from Task Area 4 of the [NFDI4Culture](https://nfdi4culture.de/) is
 
 Example workshop publication: [toc Baroque /toc](https://simonxix.github.io/Experimental_Books_workshop/)
 
-<img src="[cover/cover-small.jpg](https://raw.githubusercontent.com/mrchristian/Workshop-Publishing-from-Collections/main/cover/cover-small.jpg)" alt="toc Baroque /toc">
+<img src="https://raw.githubusercontent.com/mrchristian/Workshop-Publishing-from-Collections/main/cover/cover-small.jpg" alt="toc Baroque /toc">
 
 ### Cite as 
 
