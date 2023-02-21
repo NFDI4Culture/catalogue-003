@@ -1,6 +1,6 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SimonXIX/Experimental_Books_workshop/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/HEAD)
 
-# Experimental Books workshop catalogue
+# Experimental Books workshop Catalogue
 
 This repository contains materials for the Publishing from Collections: Introducing Computational Publishing for Culture workshop organised by Dr. Simon Worthington (Open Science Lab, TIB Hannover) for the [Experimental Books - Re-imagining Scholarly Publishing](https://experimentalbooks.pubpub.org/) conference held online on 2023-02-20.
 
