@@ -10,7 +10,7 @@ During the workshop, we will auto-compile catalogue publications for exhibitions
 
 ## Workshop schedule
 
-Full workshop schedule available at https://nfdi4culture.github.io/Workshop-Publishing-from-Collections/
+Full workshop schedule available at https://nfdi4culture.github.io/workshop-publishing-from-collections/
 
 ## Quarto and Jupyter Notebook
 
