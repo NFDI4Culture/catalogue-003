@@ -5,15 +5,15 @@ project:
 # Quarto options for books
 # https://quarto.org/docs/reference/projects/books.html
 book:
-  title: "Experimental Books workshop catalogue"
-  author: "Experimental Books conference participants"
+  title: "Experimental Books Workshop Catalogue"
+  author: "Experimental books conference participants"
   date: "2023-02-20"
   # this section determines which files will be added to the book as chapters
   chapters:
     - index.qmd
     - paintings.ipynb
     - video.ipynb
-  repo-url: https://github.com/SimonXIX/Experimental_Books_workshop
+  repo-url: https://github.com/NFDI4Culture/experimental-books-workshop
   repo-actions: [edit]
   downloads: [pdf]
 
