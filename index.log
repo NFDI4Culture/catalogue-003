@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.15)  15 MAR 2023 19:29
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.15)  15 MAR 2023 20:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1017,35 +1017,30 @@ No file index.toc.
 ]
 Chapter 1.
 
-Underfull \hbox (badness 2035) in paragraph at lines 183--187
-\TU/lmr/m/n/10 Document DOI: []10.5281/zenodo.7652524[] | Author: Simon Worthington
+Underfull \hbox (badness 1728) in paragraph at lines 176--180
+[][]\TU/lmr/m/n/10 Exhibition catalogue demo: toc Baroque /toc[] from Experimental
  []
 
 [1
 
-]
-Overfull \hbox (348.97237pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 2 \TU/lmr/m/sl/10 CHAPTER 1.  WORKSHOP PROGRAMME: PUBLISHING FROM COLLECTIONS: INTRODUCING COMPUTATIONAL PUBLISHING FOR CULTURE
- []
-
-[2]
+] [2]
 Chapter 2.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 211.
+(Font)              scaled to size 7.0pt on input line 226.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 211.
+(Font)              scaled to size 5.0pt on input line 226.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 211.
+(Font)              scaled to size 10.00092pt on input line 226.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 211.
+(Font)              scaled to size 7.00064pt on input line 226.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 211.
+(Font)              scaled to size 5.00046pt on input line 226.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 211.
+(Font)              scaled to size 9.99893pt on input line 226.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 211.
+(Font)              scaled to size 6.99925pt on input line 226.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 211.
+(Font)              scaled to size 4.99947pt on input line 226.
 File: ./paintings_files/figure-pdf/cell-2-output-2.png Graphic file (type bmp)
 <./paintings_files/figure-pdf/cell-2-output-2.png>
 
@@ -1093,7 +1088,7 @@ Overfull \hbox (40.88452pt too wide) has occurred while \output is active
  []
 
 [8]
-Overfull \hbox (53.455pt too wide) in paragraph at lines 289--291
+Overfull \hbox (53.455pt too wide) in paragraph at lines 304--306
 []\TU/lmr/m/n/10 Creator: http://www.wikidata.org/.well-known/genid/3f945710e81609ba4bae458b2820460a 
  []
 
@@ -1137,7 +1132,7 @@ Chapter 4.
 File: ./6780765/Brussels.jpg Graphic file (type bmp)
 <./6780765/Brussels.jpg>
 
-Overfull \hbox (47.34502pt too wide) in paragraph at lines 363--363
+Overfull \hbox (47.34502pt too wide) in paragraph at lines 378--378
 []\TU/lmr/m/n/10 Figure 4.1: |David_Teniers_(II)_-_The_gallery_of_Archduke_Leopold_in_Brussels.jpg| 
  []
 
@@ -1145,7 +1140,7 @@ Overfull \hbox (47.34502pt too wide) in paragraph at lines 363--363
 File: ./6780765/Papagei.jpg Graphic file (type bmp)
 <./6780765/Papagei.jpg>
 [16]
-Overfull \hbox (825.75pt too wide) in paragraph at lines 417--417
+Overfull \hbox (825.75pt too wide) in paragraph at lines 432--432
 []  \TU/lmtt/m/n/10 # have the property (wdt:P195) of being in collection wd:Q812285 (Bavarian State Painting Collections https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Collection/Bavarian_State_Painting_Collections)[] 
  []
 
@@ -1164,14 +1159,14 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.453 \includegraphics{./6780765/Cupido.jpg}
+l.468 \includegraphics{./6780765/Cupido.jpg}
                                             Heinrich Bollandt - Venus und 
 Here is how much of TeX's memory you used:
- 34242 strings out of 478663
- 720277 string characters out of 5846424
- 1848012 words of memory out of 5000000
- 53819 multiletter control sequences out of 15000+600000
- 518746 words of font info for 86 fonts, out of 8000000 for 9000
+ 34239 strings out of 478663
+ 720206 string characters out of 5846424
+ 1850012 words of memory out of 5000000
+ 53817 multiletter control sequences out of 15000+600000
+ 518738 words of font info for 85 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  86i,6n,121p,1002b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
