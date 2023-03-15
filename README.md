@@ -6,7 +6,7 @@
 
 > 2023-03-17 v1.0
 
-<img src="6780765Cupido.jpg" alt="Baroque AI /toc">
+![Baroque AI](6780765/Cupido.jpg)" "Baroque AI">
 
 Example publications: 
 
