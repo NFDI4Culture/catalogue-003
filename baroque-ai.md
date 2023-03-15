@@ -5,7 +5,7 @@ Call outs?
 
 :::
 
-![David_Teniers\_(II)\_-\_The_gallery_of_Archduke_Leopold_in_Brussels.jpg](.attachments.6780765/David_Teniers_%28II%29_-_The_gallery_of_Archduke_Leopold_in_Brussels.jpg)
+![David_Teniers\_(II)\_-\_The_gallery_of_Archduke_Leopold_in_Brussels.jpg](6780765/David_Teniers_%28II%29_-_The_gallery_of_Archduke_Leopold_in_Brussels.jpg)
 
 | Vegetables | Not vegetables | Bier | Wein |
 |------------|----------------|------|------|
@@ -17,7 +17,7 @@ Please edit here: hello here is nils
 
 :::
 
-![Flegel\_-\_Wein_und_Konfekt,\_Maus_und_Papagei.jpg](.attachments.6780765/Papagei.jpg)  
+![Flegel\_-\_Wein_und_Konfekt,\_Maus_und_Papagei.jpg](6780765/Papagei.jpg)  
 **English:** *Still-life with Parrot*
 
 **Deutsch:** *Stillleben mit Papagei*
@@ -85,7 +85,7 @@ Project goal and activities:
 
 The goal is to create a finished exhibition catalogue - like so: 
 
-![Venus_und_Cupido](.attachments.6780765/Heinrich_Bollandt_-_Venus_und_Cupido.jpg)Heinrich Bollandt - Venus und Cupido, between circa 1620 and circa 1630 <https://commons.wikimedia.org/wiki/File:Heinrich_Bollandt_-_Venus_und_Cupido.jpg>
+![Venus_und_Cupido](6780765/Heinrich_Bollandt_-_Venus_und_Cupido.jpg)Heinrich Bollandt - Venus und Cupido, between circa 1620 and circa 1630 <https://commons.wikimedia.org/wiki/File:Heinrich_Bollandt_-_Venus_und_Cupido.jpg>
 
 ## Activities
 
