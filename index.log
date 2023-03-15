@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.1)  15 MAR 2023 18:14
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.11.1)  15 MAR 2023 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1138,8 +1138,8 @@ Overfull \hbox (47.34502pt too wide) in paragraph at lines 363--363
  []
 
 [15]
-File: ./.attachments.6780765/Flegel_-_Wein_und_Konfekt,_Maus_und_Papagei.jpg Graphic file (type bmp)
-<./.attachments.6780765/Flegel_-_Wein_und_Konfekt,_Maus_und_Papagei.jpg>
+File: ./.attachments.6780765/Papagei.jpg Graphic file (type bmp)
+<./.attachments.6780765/Papagei.jpg>
 [16]
 Overfull \hbox (825.75pt too wide) in paragraph at lines 417--417
 []  \TU/lmtt/m/n/10 # have the property (wdt:P195) of being in collection wd:Q812285 (Bavarian State Painting Collections https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Collection/Bavarian_State_Painting_Collections)[] 
@@ -1164,7 +1164,7 @@ l.453 ...Heinrich_Bollandt_-_Venus_und_Cupido.jpg}
                                                   Heinrich 
 Here is how much of TeX's memory you used:
  33960 strings out of 477718
- 715456 string characters out of 5840784
+ 715168 string characters out of 5840784
  1192810 words of memory out of 5000000
  54484 multiletter control sequences out of 15000+600000
  475718 words of font info for 82 fonts, out of 8000000 for 9000

@@ -1,4 +1,4 @@
-# Test editing
+# NextCloud MD Editor
 
 ::: success
 Call outs? 
@@ -17,7 +17,7 @@ Please edit here: hello here is nils
 
 :::
 
-![Flegel\_-\_Wein_und_Konfekt,\_Maus_und_Papagei.jpg](.attachments.6780765/Flegel_-_Wein_und_Konfekt%2C_Maus_und_Papagei.jpg)  
+![Flegel\_-\_Wein_und_Konfekt,\_Maus_und_Papagei.jpg](.attachments.6780765/Papagei.jpg)  
 **English:** *Still-life with Parrot*
 
 **Deutsch:** *Stillleben mit Papagei*
