@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.15)  15 MAR 2023 19:10
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.15)  15 MAR 2023 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1134,8 +1134,8 @@ Overfull \hbox (18.10452pt too wide) has occurred while \output is active
 
 ]
 Chapter 4.
-File: ./6780765/David_Teniers_(II)_-_The_gallery_of_Archduke_Leopold_in_Brussels.jpg Graphic file (type bmp)
-<./6780765/David_Teniers_(II)_-_The_gallery_of_Archduke_Leopold_in_Brussels.jpg>
+File: ./6780765/Brussels.jpg Graphic file (type bmp)
+<./6780765/Brussels.jpg>
 
 Overfull \hbox (47.34502pt too wide) in paragraph at lines 363--363
 []\TU/lmr/m/n/10 Figure 4.1: |David_Teniers_(II)_-_The_gallery_of_Archduke_Leopold_in_Brussels.jpg| 
@@ -1164,11 +1164,11 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.453 ...Heinrich_Bollandt_-_Venus_und_Cupido.jpg}
-                                                  Heinrich 
+l.453 \includegraphics{./6780765/Cupido.jpg}
+                                            Heinrich Bollandt - Venus und 
 Here is how much of TeX's memory you used:
  34242 strings out of 478663
- 720935 string characters out of 5846424
+ 720277 string characters out of 5846424
  1848012 words of memory out of 5000000
  53819 multiletter control sequences out of 15000+600000
  518746 words of font info for 86 fonts, out of 8000000 for 9000
