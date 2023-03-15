@@ -13,6 +13,7 @@ book:
     - index.qmd
     - paintings.ipynb
     - video.ipynb
+    - baroque-ai.md
   repo-url: https://github.com/NFDI4Culture/experimental-books-workshop
   repo-actions: [edit]
   downloads: [pdf]

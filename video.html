@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Experimental Books Workshop Catalogue - 2&nbsp; Activity A: Paintings catalogue in Jupyter Notebook</title>
+<title>Experimental Books Workshop Catalogue - 3&nbsp; Activity B: Embedded video in Jupyter Notebook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./video.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./baroque-ai.html" rel="next">
+<link href="./paintings.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,6 +61,9 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script async="" src="https://hypothes.is/embed.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 </head>
@@ -71,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Activity A: Paintings catalogue in Jupyter Notebook</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Activity B: Embedded video in Jupyter Notebook</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -105,12 +108,17 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./paintings.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Activity A: Paintings catalogue in Jupyter Notebook</span></a>
+  <a href="./paintings.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Activity A: Paintings catalogue in Jupyter Notebook</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./video.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Activity B: Embedded video in Jupyter Notebook</span></a>
+  <a href="./video.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Activity B: Embedded video in Jupyter Notebook</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./baroque-ai.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Test editing</span></a>
   </div>
 </li>
     </ul>
@@ -118,14 +126,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#video-embedding" id="toc-video-embedding" class="nav-link active" data-scroll-target="#video-embedding">Video embedding</a></li>
+  <li><a href="#d-model-embedding" id="toc-d-model-embedding" class="nav-link" data-scroll-target="#d-model-embedding">3D model embedding</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.dev/NFDI4Culture/experimental-books-workshop/blob/main/video.ipynb" class="toc-action">Edit this page</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-title">Activity A: Paintings catalogue in Jupyter Notebook</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-title">Activity B: Embedded video in Jupyter Notebook</span></h1>
 </div>
 
 
@@ -140,64 +155,23 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Objective: Make a selection of nine paintings for the exhibition catalogue to be selected from Wikidata and rendered multi-format in Quarto.</p>
-<p>The below Python code uses SPARQLWrapper to retrieve data from Wikidata based on a SPARQL query.</p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29474642">http://www.wikidata.org/entity/Q29474642</a></p>
-<p>Title: The Birth of Benjamin</p>
-<p>Year: 1650</p>
-<p>Creator: Francesco Furini</p>
-<p>Copyright: public domain</p>
-<p><img src="paintings_files/figure-html/cell-2-output-2.png" class="img-fluid"></p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29474649">http://www.wikidata.org/entity/Q29474649</a></p>
-<p>Title: A Cynical Philosopher</p>
-<p>Year: 1650</p>
-<p>Creator: Luca Giordano</p>
-<p>Copyright: public domain</p>
-<p><img src="paintings_files/figure-html/cell-2-output-4.png" class="img-fluid"></p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29474651">http://www.wikidata.org/entity/Q29474651</a></p>
-<p>Title: Solomon and the Queen of Sheba</p>
-<p>Year: 1697</p>
-<p>Creator: Luca Giordano</p>
-<p>Copyright: public domain</p>
-<p><img src="paintings_files/figure-html/cell-2-output-6.png" class="img-fluid"></p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29477235">http://www.wikidata.org/entity/Q29477235</a></p>
-<p>Title: Q29477235</p>
-<p>Year: 1674</p>
-<p>Creator: Antonio Triva</p>
-<p>Copyright: public domain</p>
-<p><img src="paintings_files/figure-html/cell-2-output-8.png" class="img-fluid"></p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29477863">http://www.wikidata.org/entity/Q29477863</a></p>
-<p>Title: Q29477863</p>
-<p>Year: 1633</p>
-<p>Creator: Guido Reni</p>
-<p>Copyright: public domain</p>
-<p><img src="paintings_files/figure-html/cell-2-output-10.png" class="img-fluid"></p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29477898">http://www.wikidata.org/entity/Q29477898</a></p>
-<p>Title: Still-Life with Books</p>
-<p>Year: 1628</p>
-<p>Creator: Jan Lievens</p>
-<p>Copyright: public domain</p>
-<p><img src="paintings_files/figure-html/cell-2-output-12.png" class="img-fluid"></p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29480557">http://www.wikidata.org/entity/Q29480557</a></p>
-<p>Title: Feast of Herod</p>
-<p>Year: 1630</p>
-<p>Creator: http://www.wikidata.org/.well-known/genid/3f945710e81609ba4bae458b2820460a</p>
-<p>Copyright: public domain</p>
-<p><img src="paintings_files/figure-html/cell-2-output-14.png" class="img-fluid"></p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29480565">http://www.wikidata.org/entity/Q29480565</a></p>
-<p>Title: Venus and Cupid</p>
-<p>Year: 1625</p>
-<p>Creator: Heinrich Bollandt</p>
-<p>Copyright: public domain</p>
-<p><img src="paintings_files/figure-html/cell-2-output-16.png" class="img-fluid"></p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29480594">http://www.wikidata.org/entity/Q29480594</a></p>
-<p>Title: Still-life with Parrot</p>
-<p>Year: 1630</p>
-<p>Creator: Georg Flegel</p>
-<p>Copyright: public domain</p>
-<p><img src="paintings_files/figure-html/cell-2-output-18.png" class="img-fluid"></p>
+<p>Objective: Running and editing Juypter Notebooks in MyBinder and retrieving video and 3D models as embeds.</p>
+<section id="video-embedding" class="level2">
+<h2 class="anchored" data-anchor-id="video-embedding">Video embedding</h2>
+<p>The below Python code experiments with retrieving video data via iframe embedding.</p>
+
+<iframe width="1200" height="630" scrolling="no" src="https://av.tib.eu/player/56162" frameborder="0" allowfullscreen=""></iframe>
+</section>
+<section id="d-model-embedding" class="level2">
+<h2 class="anchored" data-anchor-id="d-model-embedding">3D model embedding</h2>
+<p>The below Python code experiments with retrieving 3D data via iframe embedding.</p>
+
+<iframe width="1200" height="630" name="Cube STL" src="https://kompakkt.wbworkshop.tibwiki.io/viewer/?entity=63e91957f3dcab9b642046ce&amp;mode=open" allowfullscreen="" loading="lazy"></iframe>
+
+<iframe width="1200" height="630" name="Monopterus Schloss Monaise Trier Temple" src="https://kompakkt.wbworkshop.tibwiki.io/viewer/?entity=63e8d2fbfbc272b762204e1c&amp;mode=open" allowfullscreen="" loading="lazy"></iframe>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -335,13 +309,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Workshop Programme: Publishing from Collections: Introducing Computational Publishing for Culture</span></span>
+      <a href="./paintings.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Activity A: Paintings catalogue in Jupyter Notebook</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./video.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Activity B: Embedded video in Jupyter Notebook</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./baroque-ai.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Test editing</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
