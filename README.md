@@ -1,16 +1,30 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NFDI4Culture/experimental-books-workshop/HEAD)
+## Catalogue experiment: Baroque AI
 
-# Experimental Books Workshop Catalogue
+## Part of series: Baroque TOC
 
-This repository contains materials for the Publishing from Collections: Introducing Computational Publishing for Culture workshop organised by Dr. Simon Worthington (Open Science Lab, TIB Hannover) for the [Experimental Books - Re-imagining Scholarly Publishing](https://experimentalbooks.pubpub.org/) conference held online on 2023-02-20.
+[Programme instructions](https://mrchristian.github.io/Workshop-Publishing-from-Collections/)
 
-Computational publishing was developed in the life sciences and STEM subjects to allow publishers and authors to embed executable code, visualisations and advanced media objects alongside conventional text in a document. This hands-on workshop demonstrates one way how humanities scholars might use computational publishing.
+> 2023-03-17 v1.0
 
-During the workshop, we will auto-compile catalogue publications for exhibitions or publication listings from multiple open data sources; and show how such compilations can be published multi-format: web, PDF, ebook, etc. A series of exercises, using Jupyter Notebooks for code and the Quarto platform to wrap up the notebooks for multi-format outputting, will give participants a practical introduction to some of the tools, possibilities and concepts of computational publishing.
+<img src="6780765Cupido.jpg" alt="Baroque AI /toc">
 
-## Workshop schedule
+Example publications: 
 
-Full workshop schedule available at https://nfdi4culture.github.io/workshop-publishing-from-collections/
+- [Exhibition catalogue demo: toc Baroque /toc](https://nfdi4culture.github.io/experimental-books-workshop/) from Experimental Books – Re-imagining Scholarly Publishing, COPIM. Workshop URL: https://experimentalbooks.pubpub.org/programme-overview
+
+- [Publishers catalogue demo: ScholarLed](https://nfdi4culture.github.io/experimental-books-workshop/) A catalogue of ScholarLed presses built on a Quarto / Jupyter Notebook model for computational publishing. The publication is automatically updated daily to reflect any new books added by the publishers.
+
+- [Proof of concept #1](https://nfdi4culture.github.io/cp4c/) - Computational Publication: Computational Publishing for Collections - ADA CP Prototype #1 - Nov 22
+
+- [Proof of concept #2](https://nfdi4culture.github.io/art_catalogue_test/) - To be confirmed, completion for end of April 2023. This contains all parts fully rendered: Cover, colophon, essay, collection, graph, TIB AV Portal, Semantic Kompakkt
+
+- semanticClimate: To be confirmed - customised research papers readers made for regional climate change action plans based on IPCC reports and sourcing content from open research repositories.
+
+- FSCI Summer School - publishing from collections class: To be confirmed, July 2023
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+Book cover: Reworking of [Baroque pearl with enamelled gold mounts set with rubies](https://en.wikipedia.org/wiki/File:Pendant_in_the_form_of_a_siren_MET_DT7173.jpg). Creative Commons CC0 1.0 Universal Public Domain Dedication. This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art.
 
 ## Quarto and Jupyter Notebook
 

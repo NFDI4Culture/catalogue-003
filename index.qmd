@@ -1,20 +1,26 @@
-## Workshop Programme: Publishing from Collections: Introducing Computational Publishing for Culture
+## Catalogue experiment: Baroque AI
+
+## Part of series: Baroque TOC
 
 [Programme instructions](https://mrchristian.github.io/Workshop-Publishing-from-Collections/)
 
-2023-02-20 v1.0
+> 2023-03-17 v1.0
 
-Experimental Books – Re-imagining Scholarly Publishing, COPIM. Workshop URL: https://experimentalbooks.pubpub.org/programme-overview
+<img src="6780765Cupido.jpg" alt="Baroque AI /toc">
 
-Contribution from Task Area 4 of the [NFDI4Culture](https://nfdi4culture.de/) is looking at which initiatives are enhancing their publications for open scholarship. Its aim is to establish a guideline for scholars to create publications and their associated data with a focus on long-term digital preservation.
+Example publications: 
 
-Example workshop publication: [toc Baroque /toc](https://simonxix.github.io/Experimental_Books_workshop/)
+- [Exhibition catalogue demo: toc Baroque /toc](https://nfdi4culture.github.io/experimental-books-workshop/) from Experimental Books – Re-imagining Scholarly Publishing, COPIM. Workshop URL: https://experimentalbooks.pubpub.org/programme-overview
 
-<img src="https://raw.githubusercontent.com/mrchristian/Workshop-Publishing-from-Collections/main/cover/cover-small.jpg" alt="toc Baroque /toc">
+- [Publishers catalogue demo: ScholarLed](https://nfdi4culture.github.io/experimental-books-workshop/) A catalogue of ScholarLed presses built on a Quarto / Jupyter Notebook model for computational publishing. The publication is automatically updated daily to reflect any new books added by the publishers.
 
-### Cite as 
+- [Proof of concept #1](https://nfdi4culture.github.io/cp4c/) - Computational Publication: Computational Publishing for Collections - ADA CP Prototype #1 - Nov 22
 
-Document DOI: [10.5281/zenodo.7652524](https://doi.org/10.5281/zenodo.7652524) | Author: Simon Worthington https://orcid.org/0000-0002-8579-9717 
+- [Proof of concept #2](https://nfdi4culture.github.io/art_catalogue_test/) - To be confirmed, completion for end of April 2023. This contains all parts fully rendered: Cover, colophon, essay, collection, graph, TIB AV Portal, Semantic Kompakkt
+
+- semanticClimate: To be confirmed - customised research papers readers made for regional climate change action plans based on IPCC reports and sourcing content from open research repositories.
+
+- FSCI Summer School - publishing from collections class: To be confirmed, July 2023
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 

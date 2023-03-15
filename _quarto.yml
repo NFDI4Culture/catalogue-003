@@ -5,9 +5,9 @@ project:
 # Quarto options for books
 # https://quarto.org/docs/reference/projects/books.html
 book:
-  title: "Experimental Books Workshop Catalogue"
-  author: "Experimental books conference participants"
-  date: "2023-02-20"
+  title: "Catalogue experiment: Baroque AI"
+  author: "Class participants"
+  date: "2023-03-17"
   # this section determines which files will be added to the book as chapters
   chapters:
     - index.qmd
