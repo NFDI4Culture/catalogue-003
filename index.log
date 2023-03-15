@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.15)  15 MAR 2023 20:32
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.3.15)  15 MAR 2023 21:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1017,157 +1017,21 @@ No file index.toc.
 ]
 Chapter 1.
 
-Underfull \hbox (badness 1728) in paragraph at lines 176--180
-[][]\TU/lmr/m/n/10 Exhibition catalogue demo: toc Baroque /toc[] from Experimental
- []
-
-[1
-
-] [2]
-Chapter 2.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 226.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 226.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 226.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 226.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 226.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 226.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 226.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 226.
-File: ./paintings_files/figure-pdf/cell-2-output-2.png Graphic file (type bmp)
-<./paintings_files/figure-pdf/cell-2-output-2.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[3
-
-]
-File: ./paintings_files/figure-pdf/cell-2-output-4.png Graphic file (type bmp)
-<./paintings_files/figure-pdf/cell-2-output-4.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (40.88452pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 4 \TU/lmr/m/sl/10 CHAPTER 2.  ACTIVITY A: PAINTINGS CATALOGUE IN JUPYTER NOTEBOOK
- []
-
-[4]
-File: ./paintings_files/figure-pdf/cell-2-output-6.png Graphic file (type bmp)
-<./paintings_files/figure-pdf/cell-2-output-6.png>
-[5]
-File: ./paintings_files/figure-pdf/cell-2-output-8.png Graphic file (type bmp)
-<./paintings_files/figure-pdf/cell-2-output-8.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \hbox (40.88452pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 6 \TU/lmr/m/sl/10 CHAPTER 2.  ACTIVITY A: PAINTINGS CATALOGUE IN JUPYTER NOTEBOOK
- []
-
-[6]
-File: ./paintings_files/figure-pdf/cell-2-output-10.png Graphic file (type bmp)
-<./paintings_files/figure-pdf/cell-2-output-10.png>
-[7]
-File: ./paintings_files/figure-pdf/cell-2-output-12.png Graphic file (type bmp)
-<./paintings_files/figure-pdf/cell-2-output-12.png>
-
-Underfull \vbox (badness 6526) has occurred while \output is active []
-
-
-Overfull \hbox (40.88452pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 8 \TU/lmr/m/sl/10 CHAPTER 2.  ACTIVITY A: PAINTINGS CATALOGUE IN JUPYTER NOTEBOOK
- []
-
-[8]
-Overfull \hbox (53.455pt too wide) in paragraph at lines 304--306
-[]\TU/lmr/m/n/10 Creator: http://www.wikidata.org/.well-known/genid/3f945710e81609ba4bae458b2820460a 
- []
-
-File: ./paintings_files/figure-pdf/cell-2-output-14.png Graphic file (type bmp)
-<./paintings_files/figure-pdf/cell-2-output-14.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[9]
-Overfull \hbox (45.88452pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 10 \TU/lmr/m/sl/10 CHAPTER 2.  ACTIVITY A: PAINTINGS CATALOGUE IN JUPYTER NOTEBOOK
- []
-
-[10]
-File: ./paintings_files/figure-pdf/cell-2-output-16.png Graphic file (type bmp)
-<./paintings_files/figure-pdf/cell-2-output-16.png>
-
-Underfull \vbox (badness 2103) has occurred while \output is active []
-
-[11]
-File: ./paintings_files/figure-pdf/cell-2-output-18.png Graphic file (type bmp)
-<./paintings_files/figure-pdf/cell-2-output-18.png>
-
-Overfull \hbox (45.88452pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 12 \TU/lmr/m/sl/10 CHAPTER 2.  ACTIVITY A: PAINTINGS CATALOGUE IN JUPYTER NOTEBOOK
- []
-
-[12]
-Chapter 3.
-[13
-
-]
-Overfull \hbox (18.10452pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 14 \TU/lmr/m/sl/10 CHAPTER 3.  ACTIVITY B: EMBEDDED VIDEO IN JUPYTER NOTEBOOK
- []
-
-[14
-
-]
-Chapter 4.
-File: ./6780765/Brussels.jpg Graphic file (type bmp)
-<./6780765/Brussels.jpg>
-
-Overfull \hbox (47.34502pt too wide) in paragraph at lines 378--378
-[]\TU/lmr/m/n/10 Figure 4.1: |David_Teniers_(II)_-_The_gallery_of_Archduke_Leopold_in_Brussels.jpg| 
- []
-
-[15]
-File: ./6780765/Papagei.jpg Graphic file (type bmp)
-<./6780765/Papagei.jpg>
-[16]
-Overfull \hbox (825.75pt too wide) in paragraph at lines 432--432
-[]  \TU/lmtt/m/n/10 # have the property (wdt:P195) of being in collection wd:Q812285 (Bavarian State Painting Collections https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Collection/Bavarian_State_Painting_Collections)[] 
- []
-
-[17] [18
-
-]
-Chapter 5.
-[19] [20
-
-]
-Chapter 6.
-
 ! Package graphics Error: Division by 0.
 
 See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.468 \includegraphics{./6780765/Cupido.jpg}
-                                            Heinrich Bollandt - Venus und 
+l.169 ...ng \includegraphics{./6780765/Cupido.jpg}
+                                                   
 Here is how much of TeX's memory you used:
- 34239 strings out of 478663
- 720206 string characters out of 5846424
- 1850012 words of memory out of 5000000
- 53817 multiletter control sequences out of 15000+600000
- 518738 words of font info for 85 fonts, out of 8000000 for 9000
+ 34068 strings out of 478663
+ 714244 string characters out of 5846424
+ 1844012 words of memory out of 5000000
+ 53680 multiletter control sequences out of 15000+600000
+ 515869 words of font info for 64 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 86i,6n,121p,1002b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,6n,121p,1002b,354s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on index.pdf (24 pages).
+Output written on index.pdf (4 pages).
