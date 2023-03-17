@@ -5,15 +5,16 @@ project:
 # Quarto options for books
 # https://quarto.org/docs/reference/projects/books.html
 book:
-  title: "Catalogue experiment: Baroque AI"
+  title: "Baroque AI: Publication Prototype"
   author: "Class participants"
   date: "2023-03-17"
   # this section determines which files will be added to the book as chapters
   chapters:
     - index.qmd
+    - colophon.ipynb
+    - collection003.qmd
     - paintings.ipynb
     - video.ipynb
-    - baroque-ai.qmd
   repo-url: https://github.com/NFDI4Culture/catalogue-003
   repo-actions: [edit]
   downloads: [pdf]

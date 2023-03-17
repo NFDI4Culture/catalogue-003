@@ -1,8 +1,8 @@
-## Catalogue experiment: Baroque AI
+## Baroque AI: Publication Prototype
 
-## Part of series: Baroque TOC
+## Part of the series: Baroque TOC
 
-[Programme instructions](https://mrchristian.github.io/Workshop-Publishing-from-Collections/)
+[Programme instructions](https://nfdi4culture.github.io/class-ADA-CP-pipeline/)
 
 2023-03-17 v1.0
 
@@ -10,7 +10,7 @@
 
 Venus und Cupido, Heinrich Bollandt, between circa 1620 and circa 1630. https://commons.wikimedia.org/wiki/File:Heinrich_Bollandt_-_Venus_und_Cupido.jpg This work is in the public domain.
 
-Example publications: 
+Example publications:
 
 - [Exhibition catalogue demo: toc Baroque /toc](https://nfdi4culture.github.io/experimental-books-workshop/) from Experimental Books – Re-imagining Scholarly Publishing, COPIM. Workshop URL: https://experimentalbooks.pubpub.org/programme-overview
 
@@ -24,7 +24,7 @@ Example publications:
 
 - FSCI Summer School - publishing from collections class: To be confirmed, July 2023
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
 Book cover: Reworking of [Baroque pearl with enamelled gold mounts set with rubies](https://en.wikipedia.org/wiki/File:Pendant_in_the_form_of_a_siren_MET_DT7173.jpg). Creative Commons CC0 1.0 Universal Public Domain Dedication. This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art.
 

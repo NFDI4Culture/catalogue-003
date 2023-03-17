@@ -132,19 +132,19 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same} % disable monospaced font for URLs
 \hypersetup{
-  pdftitle={Catalogue experiment: Baroque AI},
+  pdftitle={Baroque AI: Publication Prototype},
   pdfauthor={Class participants},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 
-\title{Catalogue experiment: Baroque AI}
+\title{Baroque AI: Publication Prototype}
 \author{Class participants}
 \date{3/17/23}
 
 \begin{document}
 \frontmatter
 \maketitle
-\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[boxrule=0pt, sharp corners, breakable, borderline west={3pt}{0pt}{shadecolor}, enhanced, interior hidden, frame hidden]}{\end{tcolorbox}}\fi
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, breakable, sharp corners, frame hidden, boxrule=0pt, interior hidden, enhanced]}{\end{tcolorbox}}\fi
 
 \renewcommand*\contentsname{Table of contents}
 {
@@ -154,10 +154,11 @@
 \mainmatter
 \bookmarksetup{startatroot}
 
-\hypertarget{part-of-series-baroque-toc}{%
-\chapter{Part of series: Baroque TOC}\label{part-of-series-baroque-toc}}
+\hypertarget{part-of-the-series-baroque-toc}{%
+\chapter{Part of the series: Baroque
+TOC}\label{part-of-the-series-baroque-toc}}
 
-\href{https://mrchristian.github.io/Workshop-Publishing-from-Collections/}{Programme
+\href{https://nfdi4culture.github.io/class-ADA-CP-pipeline/}{Programme
 instructions}
 
 2023-03-17 v1.0
@@ -211,18 +212,74 @@ Example publications:
 This work is licensed under a Creative Commons Attribution-ShareAlike
 4.0 International License.
 
-Book cover: Reworking of
-\href{https://en.wikipedia.org/wiki/File:Pendant_in_the_form_of_a_siren_MET_DT7173.jpg}{Baroque
-pearl with enamelled gold mounts set with rubies}. Creative Commons CC0
-1.0 Universal Public Domain Dedication. This file was donated to
-Wikimedia Commons as part of a project by the Metropolitan Museum of
-Art.
+\bookmarksetup{startatroot}
+
+\hypertarget{colophon}{%
+\chapter{Colophon}\label{colophon}}
+
+PUBLISHING FROM COLLECTIONS USES OF COMPUTATIONAL PUBLISHIGN AND
+LINKEDOPEN DATA
+
+Open Science Lab - TIB Hannnover
+
+First published 2023-03-30
+
+Copyright © The Authors 2023 Licensed as
+https://creativecommons.org/licenses/by-sa/4.0/
+
+DOI: https://doi.org/10.5281/zenodo.7701161
 
 \bookmarksetup{startatroot}
 
-\hypertarget{activity-a-paintings-catalogue-in-jupyter-notebook}{%
-\chapter{Activity A: Paintings catalogue in Jupyter
-Notebook}\label{activity-a-paintings-catalogue-in-jupyter-notebook}}
+\hypertarget{catalogue-experiment-baroque-ai}{%
+\chapter{Catalogue Experiment: Baroque
+AI}\label{catalogue-experiment-baroque-ai}}
+
+\begin{verbatim}
+Nextcloud Markdown document link: https://tib.eu/cloud/s/qBx8SbqiPBBedye 
+\end{verbatim}
+
+\hypertarget{part-of-the-series-baroque-toc-1}{%
+\section{Part of the series: Baroque
+TOC}\label{part-of-the-series-baroque-toc-1}}
+
+\begin{itemize}
+\tightlist
+\item
+  Class instructions and all links:
+  \url{https://nfdi4culture.github.io/class-ADA-CP-pipeline/}
+\item
+  Demo publication: \url{https://nfdi4culture.github.io/catalogue-003/}
+\item
+  Repo link: \url{https://github.com/NFDI4Culture/catalogue-003}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\hypertarget{add-your-name}{%
+\section{Add your name:}\label{add-your-name}}
+
+\begin{itemize}
+\tightlist
+\item
+  Simon Worthington
+\end{itemize}
+
+\hypertarget{text-editing}{%
+\section{Text editing}\label{text-editing}}
+
+Paste in a section of text based on variation of Baroque painting
+collections in the state of Bavaria.
+
+\url{https://openai.com/blog/chatgpt}
+
+\url{https://www.perplexity.ai/}
+
+\bookmarksetup{startatroot}
+
+\hypertarget{activity-paintings-catalogue-in-jupyter-notebook}{%
+\chapter{Activity: Paintings catalogue in Jupyter
+Notebook}\label{activity-paintings-catalogue-in-jupyter-notebook}}
 
 Objective: Make a selection of nine paintings for the exhibition
 catalogue to be selected from Wikidata and rendered multi-format in
@@ -231,110 +288,109 @@ Quarto.
 The below Python code uses SPARQLWrapper to retrieve data from Wikidata
 based on a SPARQL query.
 
-Wikidata link: \url{http://www.wikidata.org/entity/Q29474642}
+Wikidata link: \url{http://www.wikidata.org/entity/Q25569472}
 
-Title: The Birth of Benjamin
+Title: Judith
 
-Year: 1650
+Year: 1625
 
-Creator: Francesco Furini
+Creator: Simon Vouet
 
 Copyright: public domain
 
 \includegraphics{./paintings_files/figure-pdf/cell-2-output-2.png}
 
-Wikidata link: \url{http://www.wikidata.org/entity/Q29474649}
+Wikidata link: \url{http://www.wikidata.org/entity/Q27316110}
 
-Title: A Cynical Philosopher
+Title: Zeil- en roeiboten in een riviermonding
 
-Year: 1650
+Year: 1640
 
-Creator: Luca Giordano
+Creator: Jan van Goyen
 
 Copyright: public domain
 
 \includegraphics{./paintings_files/figure-pdf/cell-2-output-4.png}
 
-Wikidata link: \url{http://www.wikidata.org/entity/Q29474651}
+Wikidata link: \url{http://www.wikidata.org/entity/Q27919851}
 
-Title: Solomon and the Queen of Sheba
+Title: The Gallery of Archduke Leopold in Brussels (I)
 
-Year: 1697
+Year: 1651
 
-Creator: Luca Giordano
+Creator: David Teniers the Younger
 
 Copyright: public domain
 
 \includegraphics{./paintings_files/figure-pdf/cell-2-output-6.png}
 
-Wikidata link: \url{http://www.wikidata.org/entity/Q29477235}
+Wikidata link: \url{http://www.wikidata.org/entity/Q27976019}
 
-Title: Q29477235
+Title: A Woman Playing a Lute
 
-Year: 1674
+Year: 1663
 
-Creator: Antonio Triva
+Creator: Frans van Mieris the Elder
 
 Copyright: public domain
 
 \includegraphics{./paintings_files/figure-pdf/cell-2-output-8.png}
 
-Wikidata link: \url{http://www.wikidata.org/entity/Q29477863}
+Wikidata link: \url{http://www.wikidata.org/entity/Q27976019}
 
-Title: Q29477863
+Title: A Woman Playing a Lute
 
-Year: 1633
+Year: 1663
 
-Creator: Guido Reni
+Creator: Frans van Mieris the Elder
 
 Copyright: public domain
 
 \includegraphics{./paintings_files/figure-pdf/cell-2-output-10.png}
 
-Wikidata link: \url{http://www.wikidata.org/entity/Q29477898}
+Wikidata link: \url{http://www.wikidata.org/entity/Q28379861}
 
-Title: Still-Life with Books
+Title: Portrait of David II Teniers
 
-Year: 1628
+Year: 1659
 
-Creator: Jan Lievens
+Creator: Pieter Thijs
 
 Copyright: public domain
 
 \includegraphics{./paintings_files/figure-pdf/cell-2-output-12.png}
 
-Wikidata link: \url{http://www.wikidata.org/entity/Q29480557}
+Wikidata link: \url{http://www.wikidata.org/entity/Q28795868}
 
-Title: Feast of Herod
+Title: The Banishment of Hagar
 
-Year: 1630
+Year: 1668
 
-Creator:
-http://www.wikidata.org/.well-known/genid/3f945710e81609ba4bae458b2820460a
+Creator: Claude Lorrain
 
 Copyright: public domain
 
 \includegraphics{./paintings_files/figure-pdf/cell-2-output-14.png}
 
-Wikidata link: \url{http://www.wikidata.org/entity/Q29480565}
+Wikidata link: \url{http://www.wikidata.org/entity/Q28795872}
 
-Title: Venus and Cupid
+Title: Q28795872
 
-Year: 1625
+Year: 1665
 
-Creator: Heinrich Bollandt
+Creator: Francisque Millet
 
 Copyright: public domain
 
 \includegraphics{./paintings_files/figure-pdf/cell-2-output-16.png}
 
-Wikidata link: \url{http://www.wikidata.org/entity/Q29480594}
+Wikidata link: \url{http://www.wikidata.org/entity/Q28801542}
 
-Title: Still-life with Parrot
+Title: Madonna and Child
 
-Year: 1630
+Year: 1635
 
-Creator: Georg Flegel
+Creator: Philippe de Champaigne
 
 Copyright: public domain
 
@@ -342,9 +398,9 @@ Copyright: public domain
 
 \bookmarksetup{startatroot}
 
-\hypertarget{activity-b-embedded-video-in-jupyter-notebook}{%
-\chapter{Activity B: Embedded video in Jupyter
-Notebook}\label{activity-b-embedded-video-in-jupyter-notebook}}
+\hypertarget{activity-embedded-video-in-jupyter-notebook}{%
+\chapter{Activity: Embedded video in Jupyter
+Notebook}\label{activity-embedded-video-in-jupyter-notebook}}
 
 Objective: Running and editing Juypter Notebooks in MyBinder and
 retrieving video and 3D models as embeds.
@@ -369,141 +425,6 @@ embedding.
 \begin{verbatim}
 <IPython.core.display.HTML object>
 \end{verbatim}
-
-\bookmarksetup{startatroot}
-
-\hypertarget{nextcloud-md-editor}{%
-\chapter{NextCloud MD Editor}\label{nextcloud-md-editor}}
-
-Call outs?
-
-\begin{figure}
-
-{\centering \includegraphics{./6780765/Brussels.jpg}
-
-}
-
-\caption{David\_Teniers\_(II)\_-\_The\_gallery\_of\_Archduke\_Leopold\_in\_Brussels.jpg}
-
-\end{figure}
-
-\begin{longtable}[]{@{}llll@{}}
-\toprule()
-Vegetables & Not vegetables & Bier & Wein \\
-\midrule()
-\endhead
-Raddish & Mushroom & & \\
-Leak & & & \\
-\bottomrule()
-\end{longtable}
-
-Please edit here: hello here is nils
-
-\includegraphics{./6780765/Papagei.jpg}\\
-\textbf{English:} \emph{Still-life with Parrot}
-
-\textbf{Deutsch:} \emph{Stillleben mit Papagei}
-
-\emph{to do list}
-
-\begin{itemize}
-\tightlist
-\item[$\square$]
-  \emph{Activity 1}
-\item[$\square$]
-  Activity 2
-\item[$\square$]
-  Activity 3
-\end{itemize}
-
-Sucess
-
-Warning
-
-Danger
-
-and this is paul, look I can make edits!!
-
-SW: Ive tuurned on the colour marking for users, but this maybe only
-shows up for me and not all other users.
-
-nils: at the moment i dont see any color marking =\textgreater{} fixed
-by enable option
-
-The colour thing must be user specific.
-
-\begin{verbatim}
-WHERE
-{
-  # find items which:
-  # are instances of (wdt:P31) paintings (wd:Q3305213)
-  # have the property (wdt:P195) of being in collection wd:Q812285 (Bavarian State Painting Collections https://www.wikidata.org/wiki/Wikidata:WikiProject_sum_of_all_paintings/Collection/Bavarian_State_Painting_Collections)
-  ?item wdt:P31 wd:Q3305213 .
-  ?item wdt:P195 wd:Q812285 .
-  # get the item's creator property (wdt:P170)
-  ?item wdt:P170 ?creator .
-  # get the item's image property (wdt:P18)
-  ?item wdt:P18 ?image .
-  # get the item's copyright status (wdt:P6216)
-  ?item wdt:P6216 ?copyright . 
-    {
-    ?item wdt:P571 ?inception.
-    BIND(YEAR(?inception) AS ?inceptionyear)
-  }
-\end{verbatim}
-
-\bookmarksetup{startatroot}
-
-\hypertarget{end}{%
-\chapter{END}\label{end}}
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
-\bookmarksetup{startatroot}
-
-\hypertarget{baroque-ai}{%
-\chapter{Baroque \#AI}\label{baroque-ai}}
-
-\hypertarget{series-baroque-toc}{%
-\section{Series: Baroque TOC}\label{series-baroque-toc}}
-
-Publication: An exhibition catalogue
-
-Project goal and activities:
-
-The goal is to create a finished exhibition catalogue - like so:
-
-\includegraphics{./6780765/Cupido.jpg}Heinrich Bollandt - Venus und
-Cupido, between circa 1620 and circa 1630
-\url{https://commons.wikimedia.org/wiki/File:Heinrich_Bollandt_-_Venus_und_Cupido.jpg}
-
-\hypertarget{activities}{%
-\section{Activities}\label{activities}}
-
-\hypertarget{markup-testing}{%
-\section{Markup testing}\label{markup-testing}}
-
-Headers
-
-\bookmarksetup{startatroot}
-
-\hypertarget{header-1}{%
-\chapter{Header 1}\label{header-1}}
-
-\hypertarget{header-2}{%
-\section{Header 2}\label{header-2}}
-
-\hypertarget{header-3}{%
-\subsection{Header 3}\label{header-3}}
-
-\hypertarget{header-4}{%
-\subsubsection{Header 4}\label{header-4}}
-
-\hypertarget{header-5}{%
-\paragraph{Header 5}\label{header-5}}
-
-\hypertarget{header-6}{%
-\subparagraph{Header 6}\label{header-6}}
 
 
 \backmatter

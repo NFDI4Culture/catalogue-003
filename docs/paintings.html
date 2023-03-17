@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Catalogue experiment: Baroque AI - 2&nbsp; Activity A: Paintings catalogue in Jupyter Notebook</title>
+<title>Baroque AI: Publication Prototype - 4&nbsp; Activity: Paintings catalogue in Jupyter Notebook</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./video.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./collection003.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Activity A: Paintings catalogue in Jupyter Notebook</span></h1>
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-title">Activity: Paintings catalogue in Jupyter Notebook</span></h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -84,10 +84,10 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Catalogue experiment: Baroque AI</a> 
+      <a href="./">Baroque AI: Publication Prototype</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/NFDI4Culture/catalogue-003" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
-    <a href="./Catalogue-experiment--Baroque-AI.pdf" title="Download PDF" class="sidebar-tool px-1"><i class="bi bi-file-pdf"></i></a>
+    <a href="./Baroque-AI--Publication-Prototype.pdf" title="Download PDF" class="sidebar-tool px-1"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -100,22 +100,27 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part of series: Baroque TOC</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Part of the series: Baroque TOC</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./paintings.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Activity A: Paintings catalogue in Jupyter Notebook</span></a>
+  <a href="./colophon.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Colophon</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./video.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Activity B: Embedded video in Jupyter Notebook</span></a>
+  <a href="./collection003.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Catalogue Experiment: Baroque AI</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./baroque-ai.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">NextCloud MD Editor</span></a>
+  <a href="./paintings.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Activity: Paintings catalogue in Jupyter Notebook</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./video.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Activity: Embedded video in Jupyter Notebook</span></a>
   </div>
 </li>
     </ul>
@@ -130,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-title">Activity A: Paintings catalogue in Jupyter Notebook</span></h1>
+<h1 class="title d-none d-lg-block"><span class="chapter-title">Activity: Paintings catalogue in Jupyter Notebook</span></h1>
 </div>
 
 
@@ -147,58 +152,58 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Objective: Make a selection of nine paintings for the exhibition catalogue to be selected from Wikidata and rendered multi-format in Quarto.</p>
 <p>The below Python code uses SPARQLWrapper to retrieve data from Wikidata based on a SPARQL query.</p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29474642">http://www.wikidata.org/entity/Q29474642</a></p>
-<p>Title: The Birth of Benjamin</p>
-<p>Year: 1650</p>
-<p>Creator: Francesco Furini</p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q25569472">http://www.wikidata.org/entity/Q25569472</a></p>
+<p>Title: Judith</p>
+<p>Year: 1625</p>
+<p>Creator: Simon Vouet</p>
 <p>Copyright: public domain</p>
 <p><img src="paintings_files/figure-html/cell-2-output-2.png" class="img-fluid"></p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29474649">http://www.wikidata.org/entity/Q29474649</a></p>
-<p>Title: A Cynical Philosopher</p>
-<p>Year: 1650</p>
-<p>Creator: Luca Giordano</p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q27316110">http://www.wikidata.org/entity/Q27316110</a></p>
+<p>Title: Zeil- en roeiboten in een riviermonding</p>
+<p>Year: 1640</p>
+<p>Creator: Jan van Goyen</p>
 <p>Copyright: public domain</p>
 <p><img src="paintings_files/figure-html/cell-2-output-4.png" class="img-fluid"></p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29474651">http://www.wikidata.org/entity/Q29474651</a></p>
-<p>Title: Solomon and the Queen of Sheba</p>
-<p>Year: 1697</p>
-<p>Creator: Luca Giordano</p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q27919851">http://www.wikidata.org/entity/Q27919851</a></p>
+<p>Title: The Gallery of Archduke Leopold in Brussels (I)</p>
+<p>Year: 1651</p>
+<p>Creator: David Teniers the Younger</p>
 <p>Copyright: public domain</p>
 <p><img src="paintings_files/figure-html/cell-2-output-6.png" class="img-fluid"></p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29477235">http://www.wikidata.org/entity/Q29477235</a></p>
-<p>Title: Q29477235</p>
-<p>Year: 1674</p>
-<p>Creator: Antonio Triva</p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q27976019">http://www.wikidata.org/entity/Q27976019</a></p>
+<p>Title: A Woman Playing a Lute</p>
+<p>Year: 1663</p>
+<p>Creator: Frans van Mieris the Elder</p>
 <p>Copyright: public domain</p>
 <p><img src="paintings_files/figure-html/cell-2-output-8.png" class="img-fluid"></p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29477863">http://www.wikidata.org/entity/Q29477863</a></p>
-<p>Title: Q29477863</p>
-<p>Year: 1633</p>
-<p>Creator: Guido Reni</p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q27976019">http://www.wikidata.org/entity/Q27976019</a></p>
+<p>Title: A Woman Playing a Lute</p>
+<p>Year: 1663</p>
+<p>Creator: Frans van Mieris the Elder</p>
 <p>Copyright: public domain</p>
 <p><img src="paintings_files/figure-html/cell-2-output-10.png" class="img-fluid"></p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29477898">http://www.wikidata.org/entity/Q29477898</a></p>
-<p>Title: Still-Life with Books</p>
-<p>Year: 1628</p>
-<p>Creator: Jan Lievens</p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q28379861">http://www.wikidata.org/entity/Q28379861</a></p>
+<p>Title: Portrait of David II Teniers</p>
+<p>Year: 1659</p>
+<p>Creator: Pieter Thijs</p>
 <p>Copyright: public domain</p>
 <p><img src="paintings_files/figure-html/cell-2-output-12.png" class="img-fluid"></p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29480557">http://www.wikidata.org/entity/Q29480557</a></p>
-<p>Title: Feast of Herod</p>
-<p>Year: 1630</p>
-<p>Creator: http://www.wikidata.org/.well-known/genid/3f945710e81609ba4bae458b2820460a</p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q28795868">http://www.wikidata.org/entity/Q28795868</a></p>
+<p>Title: The Banishment of Hagar</p>
+<p>Year: 1668</p>
+<p>Creator: Claude Lorrain</p>
 <p>Copyright: public domain</p>
 <p><img src="paintings_files/figure-html/cell-2-output-14.png" class="img-fluid"></p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29480565">http://www.wikidata.org/entity/Q29480565</a></p>
-<p>Title: Venus and Cupid</p>
-<p>Year: 1625</p>
-<p>Creator: Heinrich Bollandt</p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q28795872">http://www.wikidata.org/entity/Q28795872</a></p>
+<p>Title: Q28795872</p>
+<p>Year: 1665</p>
+<p>Creator: Francisque Millet</p>
 <p>Copyright: public domain</p>
 <p><img src="paintings_files/figure-html/cell-2-output-16.png" class="img-fluid"></p>
-<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q29480594">http://www.wikidata.org/entity/Q29480594</a></p>
-<p>Title: Still-life with Parrot</p>
-<p>Year: 1630</p>
-<p>Creator: Georg Flegel</p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q28801542">http://www.wikidata.org/entity/Q28801542</a></p>
+<p>Title: Madonna and Child</p>
+<p>Year: 1635</p>
+<p>Creator: Philippe de Champaigne</p>
 <p>Copyright: public domain</p>
 <p><img src="paintings_files/figure-html/cell-2-output-18.png" class="img-fluid"></p>
 
@@ -340,13 +345,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Part of series: Baroque TOC</span></span>
+      <a href="./collection003.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Catalogue Experiment: Baroque AI</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./video.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Activity B: Embedded video in Jupyter Notebook</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-title">Activity: Embedded video in Jupyter Notebook</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

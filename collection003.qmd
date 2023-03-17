@@ -1,0 +1,26 @@
+# Catalogue Experiment: Baroque AI
+
+```
+Nextcloud Markdown document link: https://tib.eu/cloud/s/qBx8SbqiPBBedye 
+```
+
+## Part of the series: Baroque TOC
+
+* Class instructions and all links: <https://nfdi4culture.github.io/class-ADA-CP-pipeline/>
+* Demo publication: <https://nfdi4culture.github.io/catalogue-003/>
+* Repo link: <https://github.com/NFDI4Culture/catalogue-003>
+
+---
+
+## Add your name:
+
+* Simon Worthington
+
+## Text editing
+
+Paste in a section of text based on variation of Baroque painting collections in the state of Bavaria.
+
+<https://openai.com/blog/chatgpt>
+
+<https://www.perplexity.ai/>
+
