@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "index.html#part-of-the-series-baroque-toc",
+    "href": "index.html#part-of-the-series-baroque-toc",
+    "title": "Baroque AI: Publication Prototype",
+    "section": "Part of the series: Baroque TOC",
+    "text": "Part of the series: Baroque TOC\nProgramme instructions\n2023-03-17 v1.0\nVenus und Cupido, Heinrich Bollandt, between circa 1620 and circa 1630. https://commons.wikimedia.org/wiki/File:Heinrich_Bollandt_-_Venus_und_Cupido.jpg This work is in the public domain.\nExample publications:\n\nExhibition catalogue demo: toc Baroque /toc from Experimental Books – Re-imagining Scholarly Publishing, COPIM. Workshop URL: https://experimentalbooks.pubpub.org/programme-overview\nPublishers catalogue demo: ScholarLed A catalogue of ScholarLed presses built on a Quarto / Jupyter Notebook model for computational publishing. The publication is automatically updated daily to reflect any new books added by the publishers.\nProof of concept #1 - Computational Publication: Computational Publishing for Collections - ADA CP Prototype #1 - Nov 22\nProof of concept #2 - To be confirmed, completion for end of April 2023. This contains all parts fully rendered: Cover, colophon, essay, collection, graph, TIB AV Portal, Semantic Kompakkt\nsemanticClimate: To be confirmed - customised research papers readers made for regional climate change action plans based on IPCC reports and sourcing content from open research repositories.\nFSCI Summer School - publishing from collections class: To be confirmed, July 2023\n\n\nThis work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+  },
+  {
+    "objectID": "colophon.html",
+    "href": "colophon.html",
+    "title": "Colophon",
+    "section": "",
+    "text": "PUBLISHING FROM COLLECTIONS USES OF COMPUTATIONAL PUBLISHIGN AND LINKEDOPEN DATA\nOpen Science Lab - TIB Hannnover\nFirst published 2023-03-30\nCopyright © The Authors 2023 Licensed as https://creativecommons.org/licenses/by-sa/4.0/\nDOI: https://doi.org/10.5281/zenodo.7701161"
+  },
+  {
+    "objectID": "collection003.html#part-of-the-series-baroque-toc",
+    "href": "collection003.html#part-of-the-series-baroque-toc",
+    "title": "Catalogue Experiment: Baroque AI",
+    "section": "Part of the series: Baroque TOC",
+    "text": "Part of the series: Baroque TOC\n\nClass instructions and all links: https://nfdi4culture.github.io/class-ADA-CP-pipeline/\nDemo publication: https://nfdi4culture.github.io/catalogue-003/\nRepo link: https://github.com/NFDI4Culture/catalogue-003"
+  },
+  {
+    "objectID": "collection003.html#add-your-name",
+    "href": "collection003.html#add-your-name",
+    "title": "Catalogue Experiment: Baroque AI",
+    "section": "Add your name:",
+    "text": "Add your name:\n\nSimon Worthington"
+  },
+  {
+    "objectID": "collection003.html#text-editing",
+    "href": "collection003.html#text-editing",
+    "title": "Catalogue Experiment: Baroque AI",
+    "section": "Text editing",
+    "text": "Text editing\nPaste in a section of text based on variation of Baroque painting collections in the state of Bavaria.\nhttps://openai.com/blog/chatgpt\nhttps://www.perplexity.ai/"
+  },
+  {
+    "objectID": "paintings.html",
+    "href": "paintings.html",
+    "title": "Activity: Paintings catalogue in Jupyter Notebook",
+    "section": "",
+    "text": "Objective: Make a selection of nine paintings for the exhibition catalogue to be selected from Wikidata and rendered multi-format in Quarto.\nThe below Python code uses SPARQLWrapper to retrieve data from Wikidata based on a SPARQL query.\nWikidata link: http://www.wikidata.org/entity/Q25569472\nTitle: Judith\nYear: 1625\nCreator: Simon Vouet\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q27316110\nTitle: Zeil- en roeiboten in een riviermonding\nYear: 1640\nCreator: Jan van Goyen\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q27919851\nTitle: The Gallery of Archduke Leopold in Brussels (I)\nYear: 1651\nCreator: David Teniers the Younger\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q27976019\nTitle: A Woman Playing a Lute\nYear: 1663\nCreator: Frans van Mieris the Elder\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q27976019\nTitle: A Woman Playing a Lute\nYear: 1663\nCreator: Frans van Mieris the Elder\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q28379861\nTitle: Portrait of David II Teniers\nYear: 1659\nCreator: Pieter Thijs\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q28795868\nTitle: The Banishment of Hagar\nYear: 1668\nCreator: Claude Lorrain\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q28795872\nTitle: Q28795872\nYear: 1665\nCreator: Francisque Millet\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q28801542\nTitle: Madonna and Child\nYear: 1635\nCreator: Philippe de Champaigne\nCopyright: public domain"
+  },
+  {
+    "objectID": "video.html#video-embedding",
+    "href": "video.html#video-embedding",
+    "title": "Activity: Embedded video in Jupyter Notebook",
+    "section": "Video embedding",
+    "text": "Video embedding\nThe below Python code experiments with retrieving video data via iframe embedding."
+  },
+  {
+    "objectID": "video.html#d-model-embedding",
+    "href": "video.html#d-model-embedding",
+    "title": "Activity: Embedded video in Jupyter Notebook",
+    "section": "3D model embedding",
+    "text": "3D model embedding\nThe below Python code experiments with retrieving 3D data via iframe embedding."
+  }
+]
