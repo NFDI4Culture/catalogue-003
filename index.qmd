@@ -8,6 +8,8 @@ Venus und Cupido, Heinrich Bollandt, between circa 1620 and circa 1630. https://
 
 Example publications: 
 
+- Exhibition Catalogue (Work in progress) - https://nfdi4culture.github.io/catalogue-003/ (content from the current repo)
+
 - [Exhibition catalogue demo: toc Baroque /toc](https://nfdi4culture.github.io/experimental-books-workshop/) from Experimental Books – Re-imagining Scholarly Publishing, COPIM. Workshop URL: https://experimentalbooks.pubpub.org/programme-overview
 
 - [Publishers catalogue demo: ScholarLed](https://simonxix.github.io/scholarled_catalogue/) A catalogue of ScholarLed presses built on a Quarto / Jupyter Notebook model for computational publishing. The publication is automatically updated daily to reflect any new books added by the publishers.
