@@ -15,6 +15,7 @@ book:
     - collection003.qmd
     - paintings.ipynb
     - video.ipynb
+    - sw-collection.ipynb
   repo-url: https://github.com/NFDI4Culture/catalogue-003
   repo-actions: [edit]
   downloads: [pdf]
