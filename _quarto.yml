@@ -7,15 +7,15 @@ project:
 book:
   title: "Baroque AI: Publication Prototype"
   author: "Class participants"
-  date: "2023-03-17"
+  date: "2023-04-14"
   # this section determines which files will be added to the book as chapters
   chapters:
     - index.qmd
     - colophon.ipynb
     - collection003.qmd
     - paintings.ipynb
-  #   - video.ipynb
-  #   - sw-collection.ipynb
+    - video.ipynb
+    - sw-collection.ipynb
   repo-url: https://github.com/NFDI4Culture/catalogue-003
   repo-actions: [edit]
   downloads: [pdf]
