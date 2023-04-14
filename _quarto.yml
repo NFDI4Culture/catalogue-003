@@ -14,8 +14,8 @@ book:
     - colophon.ipynb
     - collection003.qmd
     - paintings.ipynb
-    - video.ipynb
-    - sw-collection.ipynb
+  #   - video.ipynb
+  #   - sw-collection.ipynb
   repo-url: https://github.com/NFDI4Culture/catalogue-003
   repo-actions: [edit]
   downloads: [pdf]
@@ -33,7 +33,7 @@ format:
     number-sections: false
     # Quarto allows a number of pre-packaged themes for the HTML version
     # You can choose between them using the documentation at https://quarto.org/docs/output-formats/html-themes.html
-    theme: minty
+    theme: journal
   # options for PDF output 
   # https://quarto.org/docs/reference/formats/pdf.html
   pdf:

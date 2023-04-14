@@ -11,55 +11,20 @@
     "href": "colophon.html",
     "title": "Colophon",
     "section": "",
-    "text": "PUBLISHING FROM COLLECTIONS USES OF COMPUTATIONAL PUBLISHIGN AND LINKEDOPEN DATA\nOpen Science Lab - TIB Hannnover\nFirst published 2023-03-30\nCopyright © The Authors 2023 Licensed as https://creativecommons.org/licenses/by-sa/4.0/\nDOI: https://doi.org/10.5281/zenodo.7701161"
+    "text": "Fork title: Author: ORCID: Date: DOI: Repositor:\nPUBLISHING FROM COLLECTIONS USES OF COMPUTATIONAL PUBLISHIGN AND LINKEDOPEN DATA\nOpen Science Lab - TIB Hannnover\nFirst published 2023-03-30\nCopyright © The Authors 2023 Licensed as https://creativecommons.org/licenses/by-sa/4.0/\nDOI: https://doi.org/10.5281/zenodo.7701161"
   },
   {
-    "objectID": "collection003.html#part-of-the-series-baroque-toc",
-    "href": "collection003.html#part-of-the-series-baroque-toc",
-    "title": "Catalogue Experiment: Baroque AI",
-    "section": "Part of the series: Baroque TOC",
-    "text": "Part of the series: Baroque TOC\n\nClass instructions and all links: https://nfdi4culture.github.io/class-ADA-CP-pipeline/\nDemo publication: https://nfdi4culture.github.io/catalogue-003/\nRepo link: https://github.com/NFDI4Culture/catalogue-003"
-  },
-  {
-    "objectID": "collection003.html#add-your-name",
-    "href": "collection003.html#add-your-name",
-    "title": "Catalogue Experiment: Baroque AI",
-    "section": "Add your name:",
-    "text": "Add your name:\n\nSimon Worthington"
-  },
-  {
-    "objectID": "collection003.html#text-editing",
-    "href": "collection003.html#text-editing",
-    "title": "Catalogue Experiment: Baroque AI",
-    "section": "Text editing",
-    "text": "Text editing\nPaste in a section of text based on variation of Baroque painting collections in the state of Bavaria.\nhttps://openai.com/blog/chatgpt\nhttps://www.perplexity.ai/"
+    "objectID": "collection003.html#history",
+    "href": "collection003.html#history",
+    "title": "Baroque painting",
+    "section": "History",
+    "text": "History\nNativity by Josefa de Óbidos, 1669, National Museum of Ancient Art, Lisbon The Council of Trent (1545–63), in which the Roman Catholic Church answered many questions of internal reform raised by both Protestants and by those who had remained inside the Catholic Church, addressed the representational arts in a short and somewhat oblique passage in its decrees. This was subsequently interpreted and expounded by a number of clerical authors like Molanus, who demanded that paintings and sculptures in church contexts should depict their subjects clearly and powerfully, and with decorum, without the stylistic airs of Mannerism. This return toward a populist conception of the function of ecclesiastical art is seen by many art historians as driving the innovations of Caravaggio and the Carracci brothers, all of whom were working (and competing for commissions) in Rome around 1600, although unlike the Carracci, Caravaggio persistently was criticised for lack of decorum in his work. However, although religious painting, history painting, allegories, and portraits were still considered the most noble subjects, landscape, still life, and genre scenes were also becoming more common in Catholic countries, and were the main genres in Protestant ones.\nThe term “Baroque” was initially used with a derogatory meaning, to underline the excesses of its emphasis. Others derive it from the mnemonic term “Baroco” denoting, in logical Scholastica, a supposedly laboured form of syllogism.[10] In particular, the term was used to describe its eccentric redundancy and noisy abundance of details, which sharply contrasted the clear and sober rationality of the Renaissance. It was first rehabilitated by the Swiss-born art historian, Heinrich Wölfflin (1864–1945) in his Renaissance und Barock (1888); Wölfflin identified the Baroque as “movement imported into mass”, an art antithetic to Renaissance art. He did not make the distinctions between Mannerism and Baroque that modern writers do, and he ignored the later phase, the academic Baroque that lasted into the 18th century. Writers in French and English did not begin to treat Baroque as a respectable study until Wölfflin’s influence had made German scholarship pre-eminent.\n\nNational variations\nLed by Italy, Mediterranean countries, slowly followed by most of the Holy Roman Empire in Germany and Central Europe, generally adopted a full-blooded Baroque approach.\nA rather different art developed out of northern realist traditions in 17th century Dutch Golden Age painting, which had very little religious art, and little history painting, instead playing a crucial part in developing secular genres such as still life, genre paintings of everyday scenes, and landscape painting. While the Baroque nature of Rembrandt’s art is clear, the label is less used for Vermeer and many other Dutch artists. Most Dutch art lacks the idealization and love of splendour typical of much Baroque work, including the neighbouring Flemish Baroque painting which shared a part in Dutch trends, while also continuing to produce the traditional categories in a more clearly Baroque style.\nIn France a dignified and graceful classicism gave a distinctive flavour to Baroque painting, where the later 17th century is also regarded as a golden age for painting. Two of the most important artists, Nicolas Poussin and Claude Lorrain, remained based in Rome, where their work, almost all in easel paintings, was much appreciated by Italian as well as French patrons."
   },
   {
     "objectID": "paintings.html",
     "href": "paintings.html",
     "title": "Activity: Paintings catalogue in Jupyter Notebook",
     "section": "",
-    "text": "Objective: Make a selection of nine paintings for the exhibition catalogue to be selected from Wikidata and rendered multi-format in Quarto.\nThe below Python code uses SPARQLWrapper to retrieve data from Wikidata based on a SPARQL query.\nWikidata link: http://www.wikidata.org/entity/Q27016143\nTitle: The Last Supper\nYear: 1450\nCreator: Giotto\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q27518439\nTitle: The Arrest of Christ with kiss of Judas and ear of Malchus\nYear: 1485\nCreator: Master of the Munich Arrest of Christ\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q27518766\nTitle: John the Evangelist\nYear: 1485\nCreator: Dieric Bouts\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q27518766\nTitle: John the Evangelist\nYear: 1485\nCreator: http://www.wikidata.org/.well-known/genid/2a5889f38f3842046293f0a74ef42761\nCopyright: public domain"
-  },
-  {
-    "objectID": "video.html#video-embedding",
-    "href": "video.html#video-embedding",
-    "title": "Activity: Embedded video in Jupyter Notebook",
-    "section": "Video embedding",
-    "text": "Video embedding\nThe below Python code experiments with retrieving video data via iframe embedding."
-  },
-  {
-    "objectID": "video.html#d-model-embedding",
-    "href": "video.html#d-model-embedding",
-    "title": "Activity: Embedded video in Jupyter Notebook",
-    "section": "3D model embedding",
-    "text": "3D model embedding\nThe below Python code experiments with retrieving 3D data via iframe embedding."
-  },
-  {
-    "objectID": "sw-collection.html",
-    "href": "sw-collection.html",
-    "title": "Custom Collection - SW",
-    "section": "",
-    "text": "Custom Collection by Simon Worthington (April 23): Paintings by Lucas Cranach the Elder https://www.wikidata.org/wiki/Q191748.\nThe collection Notebook only contains the SPARQL query and needs additional Python adding to parse the metadata output.\nMadonna under the Fir Tree \nSaint Eustace \nJudith with two female companions \nMaria Hilf \nCupid Complaining to Venus \nThe Three Graces \nThe Crucifixion with the Converted Centurion\nc:\\Users\\simon\\AppData\\Local\\Programs\\Python\\Python39\\lib\\site-packages\\PIL\\Image.py:3074: DecompressionBombWarning: Image size (121328284 pixels) exceeds limit of 89478485 pixels, could be decompression bomb DOS attack.\n  warnings.warn(\n\nMadonna with Child with Young John the Baptist \nFemale Portrait \nMelancholy \nMelancholy \nCardinal Albrecht of Brandenburg in front of the Crucified Christ \nA Faun and His Family with a Slain Lion \nRest on the Flight to Egypt \nThe Crucifixion \nAdam and Eve \nChrist blessing the children. \nPortrait of a girl with forget-me-nots \nHerkules and Omphale \nMadonna and Child \nVirgin and Child with Saint Catherine of Alexandria \nThe Mystic Marriage of Saint Catherine of Alexandria with Saints Dorothy, Margaret and Barbara"
+    "text": "Objective: Make a selection of nine paintings for the exhibition catalogue to be selected from Wikidata and rendered multi-format in Quarto.\nThe below Python code uses SPARQLWrapper to retrieve data from Wikidata based on a SPARQL query.\nWikidata link: http://www.wikidata.org/entity/Q29474636\nTitle: the Saints Peter, Benedict, Julian (?), Stephan (?), and a holy bishop (Nicholas of Bari?)\nYear: 1364\nCreator: Nardo di Cione\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q29474638\nTitle: the Saints John the Baptist, Egidius, Gerard of Villamagna, Paul and Catherine (or Miniato)\nYear: 1350\nCreator: Nardo di Cione\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q29474640\nTitle: Q29474640\nYear: 1450\nCreator: Fra Carnevale\nCopyright: public domain\n\nWikidata link: http://www.wikidata.org/entity/Q29474647\nTitle: Q29474647\nYear: 1490\nCreator: Francesco Francia\nCopyright: public domain"
   }
 ]
