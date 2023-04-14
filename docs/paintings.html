@@ -162,8 +162,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Objective: Make a selection of nine paintings for the exhibition catalogue to be selected from Wikidata and rendered multi-format in Quarto.</p>
-<p>Collecting sparqlwrapper Downloading SPARQLWrapper-2.0.0-py3-none-any.whl (28 kB) Collecting rdflib&gt;=6.1.1 Downloading rdflib-6.3.2-py3-none-any.whl (528 kB) [K |████████████████████████████████| 528 kB 3.5 MB/s eta 0:00:01 [?25hCollecting isodate&lt;0.7.0,&gt;=0.6.0 Downloading isodate-0.6.1-py2.py3-none-any.whl (41 kB) [K |████████████████████████████████| 41 kB 2.6 MB/s eta 0:00:01 [?25hRequirement already satisfied: pyparsing&lt;4,&gt;=2.1.0 in /Users/memotuku/opt/anaconda3/lib/python3.8/site-packages (from rdflib&gt;=6.1.1-&gt;sparqlwrapper) (2.4.7) Requirement already satisfied: six in /Users/memotuku/opt/anaconda3/lib/python3.8/site-packages (from isodate&lt;0.7.0,&gt;=0.6.0-&gt;rdflib&gt;=6.1.1-&gt;sparqlwrapper) (1.15.0) Installing collected packages: isodate, rdflib, sparqlwrapper Successfully installed isodate-0.6.1 rdflib-6.3.2 sparqlwrapper-2.0.0 Note: you may need to restart the kernel to use updated packages.</p>
-<pre><code>KeyError: 'item'</code></pre>
+<p>Defaulting to user installation because normal site-packages is not writeable Requirement already satisfied: sparqlwrapper in /Users/memotuku/.local/lib/python3.8/site-packages (2.0.0) Requirement already satisfied: rdflib&gt;=6.1.1 in /Users/memotuku/.local/lib/python3.8/site-packages (from sparqlwrapper) (6.3.2) Requirement already satisfied: pyparsing&lt;4,&gt;=2.1.0 in /opt/anaconda3/lib/python3.8/site-packages (from rdflib&gt;=6.1.1-&gt;sparqlwrapper) (2.4.7) Requirement already satisfied: isodate&lt;0.7.0,&gt;=0.6.0 in /Users/memotuku/.local/lib/python3.8/site-packages (from rdflib&gt;=6.1.1-&gt;sparqlwrapper) (0.6.1) Requirement already satisfied: six in /opt/anaconda3/lib/python3.8/site-packages (from isodate&lt;0.7.0,&gt;=0.6.0-&gt;rdflib&gt;=6.1.1-&gt;sparqlwrapper) (1.15.0) Note: you may need to restart the kernel to use updated packages.</p>
+<p>Wikidata link: <a href="http://www.wikidata.org/entity/Q21623">http://www.wikidata.org/entity/Q21623</a></p>
+<p>Title: Alicia Ostriker</p>
+<pre><code>KeyError: 'inceptionyear'</code></pre>
 <p>The below Python code uses SPARQLWrapper to retrieve data from Wikidata based on a SPARQL query.</p>
 
 
