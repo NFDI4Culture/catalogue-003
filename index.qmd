@@ -4,8 +4,6 @@
 
 2023-03-17 v1.0
 
-Venus und Cupido, Heinrich Bollandt, between circa 1620 and circa 1630. https://commons.wikimedia.org/wiki/File:Heinrich_Bollandt_-_Venus_und_Cupido.jpg This work is in the public domain.
-
 Example publications: 
 
 - Exhibition Catalogue (Work in progress) - https://nfdi4culture.github.io/catalogue-003/ (content from the current repo)

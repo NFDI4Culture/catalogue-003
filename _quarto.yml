@@ -19,6 +19,7 @@ book:
   repo-url: https://github.com/NFDI4Culture/catalogue-003
   repo-actions: [edit]
   downloads: [pdf]
+  cover-image: https://raw.githubusercontent.com/NFDI4Culture/class-ADA-CP-pipeline/main/cover/cover-smallalt.jpg
 
 # Quarto allows commenting using either Hypothesis or Utterances
 # https://quarto.org/docs/reference/projects/books.html#comments
