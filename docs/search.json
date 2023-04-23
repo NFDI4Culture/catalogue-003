@@ -1,10 +1,24 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Baroque AI: Publication Prototype",
+    "section": "",
+    "text": "Author:\nORCID:\nDate:\nDOI:\nRepository URL:"
+  },
+  {
+    "objectID": "index.html#based-on-baroque-ai-publication-prototype",
+    "href": "index.html#based-on-baroque-ai-publication-prototype",
+    "title": "Baroque AI: Publication Prototype",
+    "section": "Based on Baroque AI: Publication Prototype",
+    "text": "Based on Baroque AI: Publication Prototype"
+  },
+  {
     "objectID": "index.html#part-of-the-series-baroque-toc",
     "href": "index.html#part-of-the-series-baroque-toc",
     "title": "Baroque AI: Publication Prototype",
     "section": "Part of the series: Baroque TOC",
-    "text": "Part of the series: Baroque TOC\nProgramme instructions\n2023-03-17 v1.0\nExample publications:\n\nExhibition Catalogue (Work in progress) - https://nfdi4culture.github.io/catalogue-003/ (content from the current repo)\nExhibition catalogue demo: toc Baroque /toc from Experimental Books – Re-imagining Scholarly Publishing, COPIM. Workshop URL: https://experimentalbooks.pubpub.org/programme-overview\nPublishers catalogue demo: ScholarLed A catalogue of ScholarLed presses built on a Quarto / Jupyter Notebook model for computational publishing. The publication is automatically updated daily to reflect any new books added by the publishers.\nProof of concept #1 - Computational Publication: Computational Publishing for Collections - ADA CP Prototype #1 - Nov 22\nProof of concept #2 - To be confirmed, completion for end of April 2023. This contains all parts fully rendered: Cover, colophon, essay, collection, graph, TIB AV Portal, Semantic Kompakkt\nsemanticClimate: To be confirmed - customised research papers readers made for regional climate change action plans based on IPCC reports and sourcing content from open research repositories.\nFSCI Summer School - publishing from collections class: To be confirmed, July 2023\n\n\nThis work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+    "text": "Part of the series: Baroque TOC\nProgramme instructions\n2023-03-17\n This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.\nBook cover: Reworking of Baroque pearl with enamelled gold mounts set with rubies. Creative Commons CC0 1.0 Universal Public Domain Dedication. This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art.\n\nThis work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
   },
   {
     "objectID": "colophon.html",

@@ -16,6 +16,7 @@ book:
     - paintings.ipynb
   #  - video.ipynb
     - sw-collection.ipynb
+    - html-test.html
   repo-url: https://github.com/NFDI4Culture/catalogue-003
   repo-actions: [edit]
   downloads: [pdf,docx,epub]
