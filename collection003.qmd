@@ -1,10 +1,10 @@
-# Catalogue Experiment: Baroque AI
+# Catalogue Experiment: Italian Paitings
 
 ```
 Nextcloud Markdown document link: https://tib.eu/cloud/s/qBx8SbqiPBBedye 
 ```
 
-## Part of the series: Baroque TOC
+## Part of the series: Italian Paintings
 
 * Class instructions and all links: <https://nfdi4culture.github.io/class-ADA-CP-pipeline/>
 * Demo publication: <https://nfdi4culture.github.io/catalogue-003/>
@@ -12,13 +12,20 @@ Nextcloud Markdown document link: https://tib.eu/cloud/s/qBx8SbqiPBBedye
 
 ---
 
-## Add your name:
+## Author:
 
-* Simon Worthington
+* Memo Loran Tuku
 
-## Text editing
+## Topic
 
-Paste in a section of text based on variation of Baroque painting collections in the state of Bavaria.
+Dieses SPARQL-Query wird verwendet, um eine Liste von Gemälden abzurufen, die von italienischen Künstlern geschaffen wurden und deren Ursprungsort in Italien liegt. Es gibt fünf Variablen, die zurückgegeben werden:
+
+?painting: die URI des Gemäldes
+?paintingLabel: der Label (Name) des Gemäldes in Deutsch
+?artist: die URI des Künstlers
+?artistLabel: der Label (Name) des Künstlers in Deutsch
+?originLabel: der Label (Name) des Ursprungsortes des Gemäldes in Deutsch
+Das Query wird auf Wikidata ausgeführt und nutzt die Wikidata Query Service-API. Um die Labels in Deutsch anzuzeigen, wird der Service wikibase:label verwendet, mit dem Parameter wikibase:language auf "de" gesetzt.
 
 <https://openai.com/blog/chatgpt>
 

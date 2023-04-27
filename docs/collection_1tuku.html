@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Italian Art - Colophon</title>
+<title>Italian Art - pip install sparqlwrapper</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -30,8 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./collection003.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./paintings_1tuku.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./colophon.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Colophon</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./collection_1tuku.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">collection_1tuku.html</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -110,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./colophon.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Colophon</span></a>
+  <a href="./colophon.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Colophon</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -125,7 +158,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./collection_1tuku.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">collection_1tuku.html</span></a>
+  <a href="./collection_1tuku.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">collection_1tuku.html</span></a>
   </div>
 </li>
     </ul>
@@ -141,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Colophon</span></h1>
+<h1 class="title"><span class="chapter-title">pip install sparqlwrapper</span></h1>
 </div>
 
 
@@ -156,12 +189,90 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Fork title - Publishing Task</p>
-<p>Author - Tuku</p>
-<p>ORCID -</p>
-<p>Date - April 27, 2023</p>
-<p>DOI - https://doi.org/10.5281/zenodo.7872070</p>
-<p>Repository URL - https://github.com/mloran/catalogue-003</p>
+<div class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># https://rdflib.github.io/sparqlwrapper/</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sys</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> SPARQLWrapper <span class="im">import</span> SPARQLWrapper, JSON</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> PIL <span class="im">import</span> Image</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> requests</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>endpoint_url <span class="op">=</span> <span class="st">"https://query.wikidata.org/sparql"</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>query <span class="op">=</span> <span class="st">"""SELECT ?painting ?paintingLabel ?artist ?artistLabel ?originLabel ?image WHERE {</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="st">  ?painting wdt:P31 wd:Q3305213;</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="st">    wdt:P170 ?artist;</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="st">    wdt:P276 ?origin.</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="st">  ?artist wdt:P27 wd:Q38.</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="st">  ?origin wdt:P17 wd:Q38.</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="st">  SERVICE wikibase:label { bd:serviceParam wikibase:language "de". }</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="st">  OPTIONAL { ?painting wdt:P18 ?image. }</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="st">}</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="st">LIMIT 9"""</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co"># SUBROUTINES</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_delay(date):</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>        date <span class="op">=</span> datetime.datetime.strptime(date, <span class="st">'%a, </span><span class="sc">%d</span><span class="st"> %b %Y %H:%M:%S GMT'</span>)</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>        timeout <span class="op">=</span> <span class="bu">int</span>((date <span class="op">-</span> datetime.datetime.now()).total_seconds())</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">ValueError</span>:</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>        timeout <span class="op">=</span> <span class="bu">int</span>(date)</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> timeout</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_image(url, headers):</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>    r <span class="op">=</span> requests.get(url, headers<span class="op">=</span>headers, stream<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> r.status_code <span class="op">==</span> <span class="dv">200</span>:</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>        im <span class="op">=</span> Image.<span class="bu">open</span>(r.raw)</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> im</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> r.status_code <span class="op">==</span> <span class="dv">500</span>:</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">None</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> r.status_code <span class="op">==</span> <span class="dv">403</span>:</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">None</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> r.status_code <span class="op">==</span> <span class="dv">429</span>:</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>        timeout <span class="op">=</span> get_delay(r.headers[<span class="st">'retry-after'</span>])</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">'Timeout </span><span class="sc">{}</span><span class="st"> m </span><span class="sc">{}</span><span class="st"> s'</span>.<span class="bu">format</span>(timeout <span class="op">//</span> <span class="dv">60</span>, timeout <span class="op">%</span> <span class="dv">60</span>))</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>        time.sleep(timeout)</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>        get_image(url, headers)</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_results(endpoint_url, query):</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>    user_agent <span class="op">=</span> <span class="st">"WDQS-example Python/</span><span class="sc">%s</span><span class="st">.</span><span class="sc">%s</span><span class="st">"</span> <span class="op">%</span> (sys.version_info[<span class="dv">0</span>], sys.version_info[<span class="dv">1</span>])</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>    <span class="co"># </span><span class="al">TODO</span><span class="co"> adjust user agent; see https://w.wiki/CX6</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>    sparql <span class="op">=</span> SPARQLWrapper(endpoint_url, agent<span class="op">=</span>user_agent)</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>    sparql.setQuery(query)</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>    sparql.setReturnFormat(JSON)</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> sparql.query().convert()</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="co"># MAIN PROGRAM</span></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>results <span class="op">=</span> get_results(endpoint_url, query)</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> result <span class="kw">in</span> results[<span class="st">"results"</span>][<span class="st">"bindings"</span>]:</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">'Wikidata link: '</span> <span class="op">+</span> <span class="st">'['</span> <span class="op">+</span> result[<span class="st">'painting'</span>][<span class="st">'value'</span>] <span class="op">+</span> <span class="st">']'</span> <span class="op">+</span> <span class="st">'('</span> <span class="op">+</span> result[<span class="st">'painting'</span>][<span class="st">'value'</span>] <span class="op">+</span> <span class="st">')'</span> <span class="op">+</span> <span class="st">'</span><span class="ch">\n</span><span class="st">'</span>)</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">'Title: '</span> <span class="op">+</span> result[<span class="st">'paintingLabel'</span>][<span class="st">'value'</span>] <span class="op">+</span> <span class="st">'</span><span class="ch">\n</span><span class="st">'</span>)</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">'Creator: '</span> <span class="op">+</span> result[<span class="st">'artistLabel'</span>][<span class="st">'value'</span>] <span class="op">+</span> <span class="st">'</span><span class="ch">\n</span><span class="st">'</span>)</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">'image'</span> <span class="kw">in</span> result:</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>      <span class="co"># get image from image URL and display resized version</span></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>      image_url<span class="op">=</span>result[<span class="st">'image'</span>][<span class="st">'value'</span>]</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>      headers <span class="op">=</span> {<span class="st">'User-Agent'</span>: <span class="st">'Ex_Books_conference_bot/0.0 (https://github.com/SimonXIX/Experimental_Books_workshop; ad7588@coventry.ac.uk)'</span>}</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>      im <span class="op">=</span> get_image(image_url, headers)</span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>      im.thumbnail((<span class="dv">500</span>, <span class="dv">500</span>), Image.Resampling.LANCZOS)</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>      display(im)</span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">'</span><span class="ch">\n\n</span><span class="st">'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Wikidata link: [http://www.wikidata.org/entity/Q28803748](http://www.wikidata.org/entity/Q28803748)
+
+Title: Q28803748
+
+Creator: Giovanni Benedetto Castiglione
+</code></pre>
+</div>
+<div class="cell-output cell-output-error">
+<pre><code>AttributeError: module 'PIL.Image' has no attribute 'Resampling'</code></pre>
+</div>
+</div>
 
 
 
@@ -401,18 +512,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Part of the series: Italian Art</span></span>
+      <a href="./paintings_1tuku.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Activity: Paintings catalogue in Jupyter Notebook</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./collection003.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Catalogue Experiment: Italian Paitings</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.dev/NFDI4Culture/catalogue-003/blob/main/colophon.ipynb" class="toc-action">Edit this page</a></p></div></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.dev/NFDI4Culture/catalogue-003/blob/main/collection_1tuku.ipynb" class="toc-action">Edit this page</a></p></div></div></div></div></footer></body></html>

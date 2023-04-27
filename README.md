@@ -1,14 +1,14 @@
-## Baroque AI: Publication Prototype
+## Italian Painting Publication Prototype
 
-## Part of the series: Baroque TOC
+## Part of the series: Italian Art
 
 [Programme instructions](https://nfdi4culture.github.io/class-ADA-CP-pipeline/)
 
 2023-03-17 v1.0
 
-![Baroque AI](6780765/Cupido.jpg)
+![Italian Painting](6780765/Cupido.jpg)
 
-Venus und Cupido, Heinrich Bollandt, between circa 1620 and circa 1630. https://commons.wikimedia.org/wiki/File:Heinrich_Bollandt_-_Venus_und_Cupido.jpg This work is in the public domain.
+Dieses SPARQL-Query wird verwendet, um eine Liste von Gemälden abzurufen, die von italienischen Künstlern geschaffen wurden und deren Ursprungsort in Italien liegt.
 
 Example publications:
 
