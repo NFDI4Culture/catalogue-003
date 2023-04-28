@@ -15,7 +15,7 @@ book:
     - collection003.qmd
     - paintings_1tuku.ipynb
     - collection_1tuku.ipynb
-  repo-url: https://github.com/NFDI4Culture/catalogue-003
+  repo-url: https://github.com/mloran/catalogue-003
   repo-actions: [edit]
   downloads: [pdf]
   cover-image: cover_art.jpg
