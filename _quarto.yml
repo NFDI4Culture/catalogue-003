@@ -33,7 +33,7 @@ format:
     # You can choose between them using the documentation at https://quarto.org/docs/output-formats/html-themes.html
     theme: spacelab
     fontsize: 1.16em
-    linestretch: 1.7
+    linestretch: 1.6
   # options for PDF output 
   # https://quarto.org/docs/reference/formats/pdf.html
   pdf:
