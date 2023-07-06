@@ -1,6 +1,6 @@
-## Italian Painting Publication Prototype
+## Objekte des Badisches Landesmuseums
 
-## Part of the series: Italian Art
+## Part of the series: Austellungen des Badischen Landmuseum
 
 [Programme instructions](https://nfdi4culture.github.io/class-ADA-CP-pipeline/)
 
@@ -8,7 +8,7 @@
 
 ![Italian Painting](6780765/Cupido.jpg)
 
-Dieses SPARQL-Query wird verwendet, um eine Liste von Gemälden abzurufen, die von italienischen Künstlern geschaffen wurden und deren Ursprungsort in Italien liegt.
+Dieses SPARQL-Query wird verwendet, um eine Liste von Objekten abzurufen, die von dem Badischen Landesmuseum ausgestelt werden.
 
 Example publications:
 

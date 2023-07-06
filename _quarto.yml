@@ -5,20 +5,19 @@ project:
 # Quarto options for books
 # https://quarto.org/docs/reference/projects/books.html
 book:
-  title: "Italian Art"
-  author: "Class participants"
-  date: "2023-04-27"
+  title: "Objekte des Badisches Landesmuseums"
+  author: "Memo Loran Tuku"
+  date: "2023-07-03"
   # this section determines which files will be added to the book as chapters
   chapters:
     - index.qmd
     - colophon.ipynb
     - collection003.qmd
     - paintings_1tuku.ipynb
-    - collection_1tuku.ipynb
   repo-url: https://github.com/mloran/catalogue-003
   repo-actions: [edit]
-  downloads: [pdf]
-  cover-image: cover_art.jpg
+  downloads: [pdf,docx,epub]
+  cover-image: cover_art.jpeg
 # Quarto allows commenting using either Hypothesis or Utterances
 # https://quarto.org/docs/reference/projects/books.html#comments
 comments:
@@ -31,9 +30,8 @@ format:
     number-sections: false
     # Quarto allows a number of pre-packaged themes for the HTML version
     # You can choose between them using the documentation at https://quarto.org/docs/output-formats/html-themes.html
-    theme: spacelab
+    theme: lux
     fontsize: 1.16em
-    linestretch: 1.6
   # options for PDF output 
   # https://quarto.org/docs/reference/formats/pdf.html
   pdf:

@@ -1,10 +1,20 @@
-## Part of the series: Italian Art
+## Teil der Serie: Objekte des Badisches Landesmuseums
 
 [Programme instructions](https://nfdi4culture.github.io/class-ADA-CP-pipeline/)
 
-2023-03-17 v1.0
+2023-07-04 v1.0
 
-Dieses SPARQL-Query wird verwendet, um eine Liste von Gemälden abzurufen, die von italienischen Künstlern geschaffen wurden und deren Ursprungsort in Italien liegt.
+Willkommen auf der Startseite der digitalen Plattform des Badischen Landmuseums! Tauchen Sie ein in die faszinierende Welt der Geschichte und erkunden Sie unsere Sammlung von Objekten aus vergangenen Zeiten.
+
+Hier haben Sie die einzigartige Möglichkeit, drei bemerkenswerte Objekte genauer zu betrachten: Messer, Gusskuchen und Lanzenspitzen. Diese repräsentativen Artefakte bieten einen fesselnden Einblick in verschiedene Aspekte des historischen Lebens.
+
+Entdecken Sie die Vielfalt der Messer, die nicht nur ein alltägliches Werkzeug, sondern auch ein Symbol für Handwerkskunst und Kultur sind. Bewundern Sie die kunstvollen Griffe, die geschickt gestalteten Klingen und erfahren Sie mehr über die verschiedenen Verwendungszwecke dieser facettenreichen Objekte.
+
+Tauchen Sie ein in die Welt der Gusskuchen und lassen Sie sich von ihrer einzigartigen Form und Textur begeistern. Diese faszinierenden Backwaren geben uns Einblicke in traditionelle Backtechniken und vermitteln ein Gefühl für die kulinarische Geschichte.
+
+Erkunden Sie die Lanzenspitzen, die uns in vergangene Schlachten und den Mut der Krieger entführen. Bewundern Sie die Präzision und das handwerkliche Können, die in der Herstellung dieser Waffen stecken, und lassen Sie sich von ihrer symbolischen Bedeutung beeindrucken.
+
+Wir laden Sie herzlich ein, diese Objekte virtuell zu erkunden und sich von ihrer Schönheit und historischen Bedeutung verzaubern zu lassen. Lassen Sie Ihrer Neugier freien Lauf und genießen Sie die Reise in die Vergangenheit, die Ihnen das Badische Landmuseum bietet.
 
 Example publications: 
 
