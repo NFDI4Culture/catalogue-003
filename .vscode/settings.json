@@ -1,16 +1,7 @@
 {
-    "jupyter.kernels.filter": [
-        {
-            "path": "/opt/homebrew/bin/python3",
-            "type": "pythonEnvironment"
-        },
-        {
-            "path": "/usr/bin/python3",
-            "type": "pythonEnvironment"
-        },
-        {
-            "path": "/opt/homebrew/bin/python3.9",
-            "type": "pythonEnvironment"
-        }
+    "jupyter.kernels.excludePythonEnvironments": [
+        "/opt/homebrew/bin/python3",
+        "/usr/bin/python3",
+        "/opt/homebrew/bin/python3.9"
     ]
 }
