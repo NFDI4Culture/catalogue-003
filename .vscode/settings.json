@@ -3,5 +3,10 @@
         "/opt/homebrew/bin/python3",
         "/usr/bin/python3",
         "/opt/homebrew/bin/python3.9"
-    ]
+    ],
+    "python.testing.pytestArgs": [
+        "6780765"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
 }
